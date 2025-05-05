@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stroke Prediction Report</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/report.css') }}">
+  <link rel="icon" href="{{ url_for('static', filename='favicon-512x512.png') }}" type="image/png">
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Stroke Prediction Report</h1>
+      <button class="btnLogout" onclick="window.location.href='/clear_session'">Logout</button>
+    </header>
+
+    <!-- Prediction, BMI, and Prediction Value Section -->
+    <section id="prediction-section">
+      <div class="chart-container">
+        <div id="score-meter">
+          <h3>Prediction Score</h3>
+          <canvas id="gauge-chart"></canvas>
+          <!-- <p id="score-percentage">0%</p> -->
+        </div>
+      </div>
+      <div class="info-container">
+        <div class="bmi-container">
+          <h2>Your BMI Score: <span id="bmiScore">{{ bmi }}</span></h2>
+        </div>
+        <div class="prediction-result">
+          <h2>
+            Your Stroke Prediction:
+            <span id="userPrediction">
+              {{ user_prediction_label }} ({{ user_prediction_percentage }}%)
+            </span>
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Cards Section -->
+    <section id="info-cards">
+      <div class="info-column" id="hospitals-column">
+        <h3>Hospitals</h3>
+        <div class="search-box">
+          <input type="text" id="hospitalName" placeholder="Search by name">
+          <input type="text" id="hospitalRegion" placeholder="Search by state">
+          <button onclick="filterHospitals()">Search</button>
+        </div>
+        <div id="hospitalCards" class="scroll-container">
+          {% for hospital in hospitals %}
+          <div class="card">
+            <h4>{{ hospital.name }}</h4>
+            <p><strong>State:</strong> {{ hospital.state }}</p>
+            <p><strong>City:</strong> {{ hospital.city }}</p>
+            <p><strong>Address:</strong> {{ hospital.address }}</p>
+            <p><strong>Pincode:</strong> {{ hospital.pincode }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="info-column" id="doctors-column">
+        <h3>Doctors</h3>
+        <div class="search-box">
+          <input type="text" id="doctorName" placeholder="Search by name">
+          <input type="text" id="doctorSpeciality" placeholder="Search by speciality">
+          <button onclick="filterDoctors()">Search</button>
+        </div>
+        <div id="doctorCards" class="scroll-container">
+          {% for doctor in doctors %}
+          <div class="card">
+            <h4>{{ doctor.name }}</h4>
+            <p><strong>Email:</strong> {{ doctor.email }}</p>
+            <p><strong>Gender:</strong> {{ doctor.gender }}</p>
+            <p><strong>Experience:</strong> {{ doctor.experience }} years</p>
+            <p><strong>Specialty:</strong> {{ doctor.specialty }}</p>
+            <p><strong>Contact:</strong> {{ doctor.contact }}</p>
+            <p><strong>Location:</strong> {{ doctor.location }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Pass prediction data as JSON (if needed elsewhere) -->
+  <!-- <script id="predictionData" type="application/json">
+    {{ user_prediction_percentage|tojson }}
+  </script> -->
+
+  <!-- Gauge Chart Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      // Get the context of the canvas element for the gauge chart
+      const ctx = document.getElementById('gauge-chart').getContext('2d');
+      const scorePercentage = document.getElementById('score-percentage');
+
+      // Ensure the gauge value is output correctly from Flask
+      const gaugeValue = parseFloat("{{ user_prediction_percentage|tojson }}");
+      console.log(typeof gaugeValue)
+      // const remainder = 100 - gaugeValue;
+
+      const gaugeChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['Prediction', 'Remaining'], // Labels for the chart segments
+          datasets: [
+            {
+              data: [0, 100], // Initial values: prediction (0%) and remaining (100%)
+              backgroundColor: ['#007bff', '#e9e9e9'], // Colors for the segments
+              borderWidth: 0, // No border between segments
+              cutout: '70%' // Creates the hollow center
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            tooltip: { enabled: false }, // Disable tooltips
+            legend: { display: false } // Disable legend display
+          },
+          rotation: -90, // Start from top
+          circumference: 180 // Create a half-circle chart
+        }
+      });
+
+      // Function to Update Gauge Chart
+      function updateGauge(score) {
+        // Clamp the score between 0 and 100
+        const prediction = Math.min(Math.max(score, 0), 100);
+
+        // Update the data for the chart
+        gaugeChart.data.datasets[0].data = [prediction, 100 - prediction];
+        gaugeChart.update();
+
+        // Update the displayed percentage text
+        scorePercentage.textContent = `${prediction}%`;
+      }
+
+      // Example: Simulate a score update
+setTimeout(() => updateGauge(gaugeValue), 2000); // Update to 75% after 2 seconds
+    });
+  </script>
+  <script src="{{ url_for('static', filename='js/report.js') }}"></script>
+</body>
+
+</html>

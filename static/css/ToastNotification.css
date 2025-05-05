@@ -1,0 +1,32 @@
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #4caf50; /* Green for success */
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    bottom: 84%;
+    right: 46.5%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s;
+  }
+
+  .toast.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .toast.error {
+    background-color: #f44336; /* Red for error */
+  }
+  @media (max-width: 768px) {
+    .toast {
+      bottom: 80%;
+      right: 5%;
+      width: 90%;
+    }
+  }

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doctor Registration</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/ToastNotification.css') }}">
+  <link rel="icon" href="{{ url_for('static', filename='favicon-512x512.png') }}" type="image/png">
+
+  <style>
+    .toast {
+      right: 43.5%;
+    }
+    /* Global Reset and Font */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url("{{ url_for('static', filename='css/futuristic-computer-generated-blue-fractal-symbol-generative-ai.jpg') }}") no-repeat center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    /* Card Container */
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      padding: 2rem;
+      max-width: 500px;
+      width: 90%;
+      margin: 1rem;
+    }
+    .card h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+    /* Form Styles */
+    form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      color: #555;
+    }
+    form input,
+    form select {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 0.2rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+    form input[type="file"] {
+      padding: 0.3rem;
+    }
+    .error-message {
+      color: red;
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+    }
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem;
+    }
+    .button-group button {
+      width: 48%;
+      padding: 0.75rem;
+      background: #007bff;
+      border: none;
+      color: #fff;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .button-group button:hover {
+      background: #0056b3;
+    }
+    /* Multi-step form styling */
+    .step {
+      display: none;
+    }
+    .step.active {
+      display: block;
+    }
+    a {
+      text-decoration: none;
+      color: #007bff;
+      display: block;
+      text-align: center;
+      margin-top: 1rem;
+    }
+    @media (max-width: 576px) {
+      .card {
+        padding: 1.5rem;
+        margin: 1rem;
+      }
+      .button-group button {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="toast" id="toast"></div>
+  <div class="card">
+    <h2>Doctor Registration</h2>
+    <form name="doctor-form" method="POST" action="/register_doctor" enctype="multipart/form-data">
+      <!-- Step 1: Basic Information -->
+      <div class="step active" id="step-1">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <div id="nameError" class="error-message"></div>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <div id="emailError" class="error-message"></div>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="8" title="Password must be at least 6 characters" maxlength="20">
+        <div id="passwordError" class="error-message"></div>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+        <div id="genderError" class="error-message"></div>
+
+        <label for="experience">Years of Experience:</label>
+        <input type="number" id="experience" name="experience" min="0" required>
+        <div id="experienceError" class="error-message"></div>
+
+        <label for="specialty">Specialty:</label>
+        <input type="text" id="specialty" name="specialty" required maxlength="15">
+        <div id="specialtyError" class="error-message"></div>
+
+        <label for="location">Clinic Location:</label>
+        <input type="text" id="location" name="location" required maxlength="150">
+        <div id="locationError" class="error-message"></div>
+
+        <label for="contact">Contact No:</label>
+        <input type="tel" id="contact" name="contact" required pattern="\d{10}" title="Enter a 10-digit phone number" maxlength="10">
+        <div id="contactError" class="error-message"></div>
+
+        <label for="aadhar_no">Aadhar Number:</label>
+        <input type="text" id="aadhar_no" name="aadhar_no" pattern="[0-9]{12}" required title="Enter a 12-digit Aadhar number" maxlength="12">
+        <div id="aadharError" class="error-message"></div>
+
+        <div class="button-group">
+          <button type="button" onclick="nextStep()">Next</button>
+        </div>
+      </div>
+
+      <!-- Step 2: Document Uploads -->
+      <div class="step" id="step-2">
+        <label for="photo">Doctor's Photograph:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required>
+        <div id="photoError" class="error-message"></div>
+
+        <label for="degree_doc">Degree Certificate:</label>
+        <input type="file" id="degree_doc" name="degree_doc" accept=".pdf,.jpg,.jpeg,.png" required>
+        <div id="degreeError" class="error-message"></div>
+
+        <label for="aadhar_doc">Aadhar Card Image:</label>
+        <input type="file" id="aadhar_doc" name="aadhar_doc" accept="image/*" required>
+        <div id="aadharDocError" class="error-message"></div>
+
+        <div class="button-group">
+          <button type="button" onclick="prevStep()">Previous</button>
+          <button type="submit">Register</button>
+        </div>
+        <a href="/doctor_login">Have an account? Login</a>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    // Toast message function
+    function showToast(message, type = "success") {
+      const toast = document.getElementById("toast");
+      toast.className = "toast " + (type === "error" ? "error" : "");
+      toast.innerHTML = message;
+      toast.classList.add("show");
+      setTimeout(() => {
+        toast.classList.remove("show");
+      }, 2000);
+    }
+
+    // Multi-step form navigation
+    let currentStep = 1;
+    function nextStep() {
+      if (!validateStep(currentStep)) return; // Validate current step before proceeding
+      document.getElementById('step-' + currentStep).classList.remove('active');
+      currentStep++;
+      document.getElementById('step-' + currentStep).classList.add('active');
+    }
+    function prevStep() {
+      document.getElementById('step-' + currentStep).classList.remove('active');
+      currentStep--;
+      document.getElementById('step-' + currentStep).classList.add('active');
+    }
+
+    // Validate all required fields in the current step
+    function validateStep(stepNumber) {
+      let valid = true;
+      // Clear all error messages for current step
+      document.querySelectorAll('#step-' + stepNumber + ' .error-message').forEach(el => el.textContent = "");
+
+      const inputs = document.querySelectorAll('#step-' + stepNumber + ' input, #step-' + stepNumber + ' select');
+      inputs.forEach(input => {
+        if (!input.checkValidity()) {
+          valid = false;
+          // Display custom error message if available, else use default validation message
+          const errorId = input.id + "Error";
+          document.getElementById(errorId).textContent = input.validationMessage;
+        }
+      });
+      return valid;
+    }
+
+    // Form submission handler
+    document.querySelector("form[name='doctor-form']").addEventListener("submit", async function (event) {
+      event.preventDefault();
+      // Validate both steps before submitting
+      if (!validateStep(1) || !validateStep(2)) {
+        showToast("Please fill in all required fields correctly.", "error");
+        return;
+      }
+      let formData = new FormData(this);
+      try {
+        let response = await fetch('http://127.0.0.1:5000/register_doctor', {
+          method: 'POST',
+          body: formData
+        });
+        let text = await response.text();
+        let result = text ? JSON.parse(text) : { message: "No response from server" };
+        if (result.success) {
+          showToast(result.message, "success");
+          setTimeout(() => { window.location.href = "/doctor_login"; }, 3000);
+        } else {
+          showToast(result.message, "error");
+        }
+      } catch (error) {
+        console.error("Error:", error);
+        alert("Registration failed! Please try again.");
+      }
+    });
+  </script>
+</body>
+</html>

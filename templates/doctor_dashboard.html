@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doctor Dashboard</title>
+  <!-- Bootstrap CSS via CDN -->
+  <link rel="icon" href="{{ url_for('static', filename='favicon-512x512.png') }}" type="image/png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      /* background: #f8f9fa; */
+      background: url("{{ url_for('static', filename='css/futuristic-computer-generated-blue-fractal-symbol-generative-ai.jpg') }}") no-repeat;
+      background-size:cover;
+      padding-top: 2rem;
+    }
+    .dashboard-card {
+      max-width: 600px;
+      margin: auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    }
+    .dashboard-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="dashboard-card">
+      <div class="dashboard-header">
+        <h2>Doctor Dashboard</h2>
+        <a href="/clear_session" class="btn btn-danger">Logout</a>
+      </div>
+      
+      {% if message %}
+      <div class="alert alert-info">{{ message }}</div>
+      {% endif %}
+      
+      <form action="/doctor_dashboard" method="POST" enctype="multipart/form-data">
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" name="name" value="{{ doctor.name }}" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" name="email" value="{{ doctor.email }}" required>
+        </div>
+        <div class="mb-3">
+          <label for="gender" class="form-label">Gender</label>
+          <select class="form-select" id="gender" name="gender" required>
+            <option value="Male" {% if doctor.gender == 'Male' %}selected{% endif %}>Male</option>
+            <option value="Female" {% if doctor.gender == 'Female' %}selected{% endif %}>Female</option>
+            <option value="Other" {% if doctor.gender == 'Other' %}selected{% endif %}>Other</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="experience" class="form-label">Years of Experience</label>
+          <input type="number" class="form-control" id="experience" name="experience" value="{{ doctor.experience }}" required>
+        </div>
+        <div class="mb-3">
+          <label for="specialty" class="form-label">Specialty</label>
+          <input type="text" class="form-control" id="specialty" name="specialty" value="{{ doctor.specialty }}" required>
+        </div>
+        <div class="mb-3">
+          <label for="contact" class="form-label">Contact Number</label>
+          <input type="tel" class="form-control" id="contact" name="contact" value="{{ doctor.contact }}" required>
+        </div>
+        <div class="mb-3">
+          <label for="location" class="form-label">Location/Clinic</label>
+          <input type="text" class="form-control" id="location" name="location" value="{{ doctor.location }}" required>
+        </div>
+        
+        <div class="mb-3">
+          <label for="aadhar_no" class="form-label">Aadhar Card Number</label>
+          <input type="text" class="form-control" id="aadhar_no" name="aadhar_no" value="{{ doctor.aadhar_no }}" required pattern="[0-9]{12}" title="Enter a 12-digit Aadhar number">
+        </div>
+      
+        <!-- New Password Field (optional, leave blank if not updating) -->
+        <div class="mb-3">
+          <label for="new_password" class="form-label">New Password (leave blank to keep current password)</label>
+          <input type="password" class="form-control" id="new_password" name="new_password" minlength="6">
+        </div>
+
+        <!-- Document Uploads -->
+        <div class="mb-3">
+          <label class="form-label">Doctor's Photograph</label>
+          {% if doctor.photo %}
+          <div class="mb-2">
+            <img src="{{ url_for('serve_file', folder='photo', filename=doctor.photo) }}" alt="Photo" class="img-thumbnail" width="150">
+          </div>
+          {% endif %}
+          <input type="file" class="form-control" name="photo">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Degree Certificate</label>
+          {% if doctor.degree_doc %}
+          <div class="mb-2">
+            <a href="{{ url_for('serve_file', folder='degree', filename=doctor.degree_doc) }}" target="_blank">View Document</a>
+          </div>
+          {% endif %}
+          <input type="file" class="form-control" name="degree_doc">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Aadhar Card Image</label>
+          {% if doctor.aadhar_doc %}
+          <div class="mb-2">
+            <a href="{{ url_for('serve_file', folder='aadhar', filename=doctor.aadhar_doc) }}" target="_blank">View Document</a>
+          </div>
+          {% endif %}
+          <input type="file" class="form-control" name="aadhar_doc">
+        </div>
+        
+        <button type="submit" class="btn btn-success w-100">Update Details</button>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Bootstrap Bundle with Popper via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

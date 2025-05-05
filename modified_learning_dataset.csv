@@ -1,0 +1,1251 @@
+Age,Gender,Hypertension,Heart Disease,Marital Status,Work Status,Residence,Avg Glucose Level,BMI,Smoking Status,Stroke Outcome
+80,Male,1,0,Married,Employed,Urban,144.87,18.21,Former Smoker,1
+62,Female,0,0,Married,Employed,Urban,89.84,47.46,Never Smoked,1
+51,Female,1,0,Single,Employed,Urban,90.75,15.76,Never Smoked,0
+62,Male,0,0,Single,Employed,Urban,206.7,17.27,Current Smoker,1
+38,Female,0,1,Married,Employed,Urban,177.79,44.82,Current Smoker,1
+76,Female,1,0,Married,Employed,Urban,157.86,30.78,Unknown,0
+82,Female,0,0,Single,Employed,Urban,268.71,47.52,Never Smoked,1
+27,Female,0,1,Married,Government,Urban,210.19,41.43,Never Smoked,0
+90,Female,0,0,Married,Employed,Rural,149.69,29.14,Former Smoker,1
+47,Male,1,0,Married,Unemployed,Urban,220.64,45.58,Unknown,1
+53,Female,0,0,Married,Unemployed,Urban,258.71,43.9,Never Smoked,1
+55,Male,0,0,Single,Unemployed,Urban,90.66,16.17,Never Smoked,0
+82,Female,0,1,Married,Government,Urban,280.67,21.91,Never Smoked,1
+35,Male,0,0,Single,Employed,Urban,217.85,15.09,Former Smoker,0
+85,Female,1,0,Single,Employed,Urban,246.91,23.31,Never Smoked,1
+81,Female,0,0,Married,Employed,Urban,238.93,16.73,Never Smoked,1
+60,Male,0,0,Married,Employed,Urban,76.9,49.24,Never Smoked,0
+47,Female,0,0,Married,Employed,Urban,176.34,37.06,Never Smoked,0
+45,Female,1,0,Married,Employed,Urban,239.22,36.67,Current Smoker,0
+26,Female,0,0,Married,Government,Urban,248.62,46.27,Former Smoker,0
+56,Male,1,0,Single,Student/Dependent,Rural,222.74,45.08,Never Smoked,1
+82,Male,0,0,Married,Employed,Urban,275.51,45.61,Former Smoker,1
+74,Female,0,0,Married,Employed,Urban,176.04,45.37,Never Smoked,0
+42,Female,0,0,Single,Employed,Urban,164.62,15.29,Current Smoker,0
+65,Female,0,0,Married,Government,Rural,73.21,21.62,Former Smoker,0
+85,Male,0,0,Married,Employed,Rural,94.4,43.21,Current Smoker,0
+41,Female,0,0,Single,Employed,Urban,214.7,18.49,Former Smoker,0
+57,Female,0,1,Married,Student/Dependent,Urban,265.14,22.35,Never Smoked,0
+89,Female,0,0,Married,Unemployed,Urban,87.5,31.07,Never Smoked,0
+36,Female,0,0,Married,Employed,Urban,266.11,24.84,Former Smoker,0
+36,Female,0,1,Married,Government,Urban,124.57,23.8,Never Smoked,0
+62,Male,1,0,Single,Employed,Urban,100.81,23.73,Never Smoked,0
+75,Female,0,0,Married,Employed,Urban,173.3,18.51,Never Smoked,0
+74,Male,1,0,Married,Unemployed,Urban,153.53,,Former Smoker,1
+50,Female,1,0,Single,Employed,Urban,92.92,34.37,Never Smoked,0
+78,Male,1,0,Single,Employed,Rural,291.18,37.62,Former Smoker,1
+55,Female,0,0,Married,Employed,Urban,104.47,42.39,Current Smoker,0
+38,Female,0,0,Single,Government,Urban,145.34,37.54,Never Smoked,0
+43,Female,0,0,Married,Government,Urban,114.8,33.11,Current Smoker,0
+24,Female,0,0,Married,Employed,Urban,79.32,33.44,Never Smoked,0
+62,Female,0,0,Married,Employed,Urban,174.53,,Never Smoked,0
+49,Male,0,0,Married,Employed,Rural,266.23,37.03,Never Smoked,0
+62,Female,1,0,Single,Unemployed,Urban,184.35,24.75,Never Smoked,0
+51,Male,1,0,Married,Employed,Urban,282.36,41.63,Former Smoker,1
+29,Female,0,0,Single,Employed,Urban,122.45,28.58,Never Smoked,1
+56,Male,0,0,Married,Employed,Urban,115.79,32.79,Former Smoker,0
+57,Male,0,1,Married,Student/Dependent,Urban,92.47,21.91,Former Smoker,0
+79,Female,0,0,Married,Employed,Urban,227.93,33.37,Former Smoker,0
+58,Male,1,0,Married,Student/Dependent,Urban,185.26,23.81,Former Smoker,0
+48,Female,0,0,Married,Employed,Urban,87.5,26.46,Never Smoked,0
+45,Female,0,0,Married,Employed,Rural,266.56,45.3,Former Smoker,0
+25,Female,0,1,Single,Student/Dependent,Urban,207.85,30.76,Former Smoker,0
+33,Female,0,1,Single,Employed,Urban,238.8,16.79,Former Smoker,0
+69,Male,0,0,Married,Government,Urban,173.73,48.2,Never Smoked,0
+49,Male,0,0,Single,Unemployed,Rural,194.67,39.39,Never Smoked,1
+61,Male,0,1,Married,Government,Urban,229.44,27.11,Never Smoked,0
+68,Female,1,0,Married,Student/Dependent,Urban,160.43,37.27,Never Smoked,1
+31,Male,0,0,Married,Employed,Urban,187.24,37.46,Former Smoker,0
+86,Female,0,1,Married,Government,Urban,205.17,24.61,Never Smoked,1
+82,Male,0,1,Single,Employed,Rural,81.89,22.19,Never Smoked,0
+38,Male,0,0,Married,Student/Dependent,Urban,173.62,19.15,Current Smoker,0
+27,Male,1,0,Married,Government,Rural,227.75,30.01,Never Smoked,0
+34,Male,0,0,Single,Employed,Urban,180.55,20.77,Never Smoked,0
+32,Male,0,0,Married,Student/Dependent,Rural,268.36,43.7,Unknown,0
+32,Female,0,0,Married,Employed,Rural,226.3,,Never Smoked,0
+65,Female,1,0,Single,Employed,Urban,77.33,36.04,Never Smoked,0
+44,Female,0,1,Married,Government,Rural,160.56,38.78,Former Smoker,0
+67,Female,0,0,Married,Employed,Urban,187.39,35.76,Never Smoked,0
+74,Female,0,0,Married,Employed,Rural,184.1,21.85,Current Smoker,0
+28,Female,0,0,Single,Employed,Urban,165.41,45.96,Never Smoked,0
+35,Female,0,0,Married,Employed,Rural,178.28,32.57,Never Smoked,0
+77,Male,0,1,Married,Employed,Rural,143.44,45.96,Never Smoked,1
+54,Male,1,0,Married,Student/Dependent,Urban,283.42,41.93,Never Smoked,0
+27,Male,1,1,Single,Employed,Urban,186.32,24.2,Current Smoker,0
+52,Male,0,0,Married,Student/Dependent,Urban,198.3,32.05,Current Smoker,0
+81,Female,0,1,Married,Employed,Urban,208.65,43.65,Never Smoked,0
+66,Female,0,0,Married,Government,Urban,147.18,17.74,Unknown,0
+68,Male,0,0,Married,Employed,Urban,284.09,41.69,Current Smoker,0
+59,Male,0,0,Married,Employed,Rural,222.75,31.95,Unknown,0
+72,Female,1,0,Married,Unemployed,Rural,145.89,34.42,Never Smoked,1
+36,Male,0,0,Married,Unemployed,Urban,141.04,45.72,Never Smoked,0
+51,Male,0,0,Married,Employed,Urban,180.62,18.86,Former Smoker,0
+63,Female,0,0,Single,Employed,Urban,293.8,22.75,Never Smoked,0
+83,Male,0,0,Married,Government,Rural,99.11,41.5,Former Smoker,1
+27,Male,1,0,Married,Employed,Urban,79.28,,Former Smoker,0
+56,Male,0,0,Married,Government,Rural,284.79,44.85,Never Smoked,0
+70,Male,0,1,Married,Government,Urban,260.03,25.16,Current Smoker,1
+62,Female,0,1,Married,Government,Urban,228.63,15.51,Never Smoked,0
+58,Female,0,0,Married,Unemployed,Urban,147.73,39.92,Never Smoked,0
+83,Female,0,0,Married,Student/Dependent,Urban,92.01,47.56,Never Smoked,1
+61,Female,0,0,Married,Employed,Urban,109.49,42.7,Never Smoked,0
+60,Female,0,1,Married,Employed,Urban,102.62,41.8,Former Smoker,0
+23,Male,1,1,Single,Employed,Urban,183.05,21.96,Never Smoked,0
+82,Male,0,1,Married,Employed,Urban,131.77,21.94,Never Smoked,1
+65,Female,0,0,Married,Employed,Rural,85.43,40.86,Current Smoker,0
+20,Male,0,1,Single,Employed,Urban,89.1,41.33,Never Smoked,0
+48,Male,0,0,Married,Employed,Urban,244.96,39.72,Current Smoker,0
+38,Male,0,0,Single,Government,Urban,250.57,42.69,Current Smoker,0
+90,Male,0,1,Married,Employed,Urban,199.97,23.08,Current Smoker,1
+89,Female,0,0,Married,Government,Urban,117.4,17.15,Current Smoker,0
+89,Male,1,0,Married,Student/Dependent,Urban,119.39,44.06,Former Smoker,1
+49,Female,0,0,Married,Government,Rural,168.74,,Never Smoked,0
+36,Female,0,0,Married,Student/Dependent,Rural,264.88,30.43,Unknown,0
+49,Male,0,0,Married,Unemployed,Urban,74.69,35.97,Current Smoker,0
+71,Male,0,0,Married,Unemployed,Urban,109.4,28.58,Current Smoker,0
+34,Female,1,0,Married,Employed,Rural,240.73,44.9,Never Smoked,0
+77,Female,0,1,Married,Government,Urban,161.55,32.99,Unknown,0
+52,Male,0,0,Married,Employed,Rural,165.03,38.65,Current Smoker,0
+70,Female,0,0,Married,Unemployed,Urban,209.03,18.11,Former Smoker,0
+52,Female,0,0,Married,Employed,Urban,295.38,29.6,Current Smoker,1
+36,Male,0,1,Married,Unemployed,Urban,187.64,34.09,Former Smoker,0
+72,Female,1,0,Married,Employed,Urban,248.7,36.56,Never Smoked,1
+22,Female,0,0,Married,Government,Urban,192.87,39.04,Never Smoked,0
+29,Female,0,0,Single,Employed,Urban,235.7,42.66,Former Smoker,0
+52,Female,0,0,Married,Employed,Urban,152.69,,Never Smoked,0
+36,Female,1,0,Single,Employed,Rural,154.45,44.71,Former Smoker,0
+57,Male,0,0,Married,Government,Rural,91.82,32.26,Never Smoked,0
+21,Female,1,0,Married,Employed,Rural,232.73,45.65,Current Smoker,0
+60,Female,1,0,Married,Employed,Urban,73.42,18.5,Never Smoked,0
+52,Male,0,0,Single,Government,Urban,196.04,36.83,Never Smoked,0
+81,Female,0,0,Single,Employed,Rural,174.95,20.11,Former Smoker,0
+76,Female,0,1,Single,Employed,Urban,217.26,26.62,Former Smoker,1
+40,Female,0,0,Married,Employed,Urban,84.15,38.14,Unknown,0
+86,Male,0,0,Married,Government,Rural,184.78,25.06,Never Smoked,0
+61,Female,1,1,Married,Employed,Rural,159.44,45.67,Former Smoker,1
+63,Male,0,0,Married,Government,Urban,229.43,32.68,Never Smoked,1
+82,Female,0,0,Single,Government,Urban,252.14,15.71,Current Smoker,1
+90,Male,1,0,Married,Employed,Urban,126.52,22.05,Never Smoked,0
+22,Female,0,1,Married,Student/Dependent,Urban,197.49,34.1,Unknown,0
+31,Female,0,0,Married,Employed,Urban,137.0,17.53,Never Smoked,0
+55,Female,0,0,Married,Employed,Urban,186.51,48.41,Never Smoked,0
+40,Female,0,0,Married,Employed,Urban,162.88,31.99,Current Smoker,0
+70,Female,1,1,Single,Government,Rural,202.72,32.63,Unknown,1
+73,Male,0,0,Married,Unemployed,Rural,214.16,29.6,Never Smoked,0
+71,Male,0,0,Single,Employed,Rural,190.85,40.04,Never Smoked,0
+26,Male,0,1,Married,Government,Urban,168.44,47.85,Current Smoker,0
+37,Female,0,0,Single,Employed,Urban,72.68,34.96,Never Smoked,0
+49,Female,1,0,Single,Government,Rural,107.05,21.11,Current Smoker,0
+45,Male,0,0,Married,Employed,Urban,123.68,46.62,Never Smoked,1
+27,Female,1,0,Married,Government,Urban,133.25,48.78,Never Smoked,0
+50,Male,0,0,Married,Employed,Urban,74.15,28.75,Unknown,0
+59,Female,1,0,Single,Student/Dependent,Rural,285.31,23.04,Never Smoked,1
+23,Female,0,0,Married,Employed,Urban,101.89,18.45,Former Smoker,0
+34,Female,0,0,Married,Government,Urban,279.2,,Current Smoker,0
+24,Female,0,0,Single,Government,Urban,193.55,,Never Smoked,0
+82,Male,1,0,Single,Employed,Urban,110.4,32.33,Former Smoker,1
+82,Female,1,0,Married,Employed,Urban,254.27,17.74,Never Smoked,0
+69,Female,0,0,Married,Student/Dependent,Urban,113.55,31.42,Unknown,0
+21,Male,0,0,Married,Employed,Urban,205.19,29.64,Unknown,0
+44,Male,1,1,Single,Employed,Urban,276.41,43.99,Never Smoked,1
+33,Male,1,0,Married,Employed,Rural,197.01,21.8,Former Smoker,0
+61,Female,0,1,Married,Employed,Rural,270.85,19.84,Never Smoked,1
+28,Male,0,0,Married,Government,Urban,77.55,27.01,Former Smoker,0
+65,Female,0,0,Married,Government,Urban,204.58,49.77,Never Smoked,0
+79,Male,1,0,Single,Employed,Urban,268.77,16.78,Never Smoked,1
+89,Female,0,0,Married,Employed,Urban,164.78,46.79,Never Smoked,0
+47,Male,0,0,Single,Employed,Urban,155.94,37.59,Unknown,0
+56,Female,1,0,Married,Employed,Rural,254.95,15.49,Never Smoked,1
+83,Female,0,0,Married,Government,Urban,290.42,29.97,Never Smoked,0
+25,Female,1,1,Married,Government,Urban,164.46,34.49,Never Smoked,0
+71,Female,0,0,Married,Government,Rural,97.02,,Never Smoked,0
+77,Male,1,1,Married,Employed,Rural,141.14,18.73,Unknown,1
+48,Male,0,1,Single,Employed,Urban,70.86,48.07,Never Smoked,0
+73,Male,0,0,Married,Employed,Urban,251.09,47.83,Never Smoked,0
+74,Male,0,0,Married,Government,Urban,146.08,18.12,Unknown,0
+32,Female,0,1,Married,Employed,Rural,228.66,26.82,Never Smoked,0
+72,Female,0,0,Married,Employed,Urban,178.17,,Unknown,0
+42,Male,1,0,Married,Employed,Urban,117.67,28.3,Never Smoked,0
+75,Male,1,0,Married,Employed,Rural,199.52,18.63,Former Smoker,1
+37,Female,1,0,Single,Employed,Rural,86.02,47.87,Never Smoked,0
+76,Female,0,1,Single,Employed,Rural,160.85,,Never Smoked,1
+56,Female,0,0,Married,Employed,Urban,127.02,41.19,Never Smoked,0
+32,Female,0,0,Married,Employed,Urban,181.87,29.23,Former Smoker,0
+51,Male,1,1,Married,Employed,Urban,128.67,23.97,Unknown,0
+84,Female,1,0,Single,Unemployed,Urban,119.42,37.31,Never Smoked,1
+25,Female,1,0,Single,Government,Urban,109.14,24.11,Former Smoker,0
+81,Female,1,0,Married,Employed,Urban,75.09,25.43,Never Smoked,1
+52,Male,0,0,Married,Employed,Urban,162.41,20.39,Never Smoked,0
+67,Male,1,0,Married,Employed,Urban,180.69,45.39,Never Smoked,1
+23,Female,0,0,Married,Student/Dependent,Urban,164.95,28.23,Current Smoker,0
+32,Male,0,0,Married,Unemployed,Urban,172.03,39.99,Never Smoked,0
+34,Male,0,0,Married,Student/Dependent,Urban,147.68,32.67,Never Smoked,0
+73,Female,0,0,Married,Unemployed,Urban,75.62,,Former Smoker,0
+63,Female,0,0,Married,Unemployed,Rural,96.34,44.06,Current Smoker,0
+57,Male,1,1,Married,Employed,Urban,153.66,26.45,Current Smoker,1
+51,Female,1,0,Married,Employed,Rural,218.32,23.24,Former Smoker,0
+73,Female,1,0,Married,Employed,Urban,258.14,44.1,Former Smoker,1
+54,Female,0,0,Single,Employed,Urban,179.61,26.14,Never Smoked,0
+48,Female,1,0,Married,Government,Urban,70.69,19.84,Never Smoked,1
+40,Male,0,0,Married,Employed,Urban,201.52,30.94,Unknown,0
+27,Male,0,1,Married,Government,Urban,98.97,40.13,Never Smoked,1
+52,Female,1,0,Single,Government,Urban,148.77,26.28,Never Smoked,0
+85,Female,1,0,Married,Unemployed,Rural,93.88,48.13,Never Smoked,1
+90,Male,0,0,Married,Employed,Urban,126.26,42.6,Never Smoked,0
+89,Male,1,1,Married,Employed,Rural,120.62,48.49,Never Smoked,1
+26,Female,1,0,Single,Employed,Urban,81.03,41.06,Never Smoked,0
+83,Male,1,0,Married,Employed,Urban,176.8,33.62,Never Smoked,1
+58,Female,0,0,Married,Employed,Urban,132.19,24.02,Unknown,1
+48,Female,0,0,Single,Government,Rural,172.89,39.08,Former Smoker,0
+88,Female,1,1,Single,Employed,Urban,156.77,21.61,Never Smoked,1
+56,Female,0,0,Married,Employed,Urban,246.61,42.13,Never Smoked,1
+44,Female,0,0,Married,Student/Dependent,Urban,144.29,28.55,Never Smoked,0
+46,Female,0,1,Married,Unemployed,Rural,249.03,15.42,Never Smoked,0
+41,Male,0,0,Married,Employed,Urban,256.92,39.49,Never Smoked,0
+51,Male,0,0,Single,Student/Dependent,Urban,138.1,24.33,Never Smoked,0
+48,Male,0,1,Single,Government,Urban,218.33,,Current Smoker,1
+77,Female,1,0,Married,Employed,Urban,260.91,15.67,Never Smoked,1
+82,Female,1,0,Married,Employed,Urban,111.4,33.09,Current Smoker,1
+28,Male,0,1,Married,Government,Urban,221.54,46.33,Current Smoker,0
+21,Male,0,0,Married,Employed,Urban,286.89,25.53,Never Smoked,0
+28,Female,0,0,Married,Employed,Rural,84.61,45.68,Former Smoker,0
+78,Female,1,1,Married,Employed,Urban,268.04,32.29,Never Smoked,1
+61,Female,1,0,Married,Employed,Urban,291.3,21.58,Former Smoker,1
+83,Male,0,0,Married,Government,Urban,253.49,22.52,Former Smoker,0
+67,Female,0,0,Married,Employed,Urban,83.82,33.62,Former Smoker,0
+55,Female,0,0,Married,Employed,Urban,236.2,32.2,Never Smoked,1
+70,Male,0,0,Married,Employed,Urban,145.67,30.48,Never Smoked,0
+45,Female,0,0,Married,Student/Dependent,Urban,86.31,27.18,Former Smoker,0
+59,Male,0,0,Married,Employed,Rural,215.31,24.27,Never Smoked,0
+24,Male,0,0,Single,Employed,Urban,197.93,,Current Smoker,0
+83,Male,0,1,Single,Employed,Urban,185.71,40.07,Unknown,0
+48,Female,0,1,Single,Government,Urban,213.07,20.87,Unknown,1
+59,Male,0,0,Married,Unemployed,Urban,109.35,40.76,Never Smoked,0
+66,Male,0,0,Single,Government,Urban,101.26,45.45,Never Smoked,0
+63,Male,0,1,Married,Employed,Urban,171.96,33.95,Former Smoker,0
+55,Male,0,0,Single,Employed,Urban,91.8,44.0,Never Smoked,0
+42,Male,0,0,Married,Employed,Urban,294.48,47.67,Never Smoked,0
+40,Female,1,0,Married,Employed,Rural,205.55,24.8,Current Smoker,0
+21,Male,0,1,Married,Student/Dependent,Rural,162.53,21.96,Never Smoked,0
+37,Male,0,0,Married,Unemployed,Urban,115.63,33.96,Former Smoker,0
+42,Male,0,0,Married,Employed,Urban,159.27,26.56,Never Smoked,0
+57,Female,0,0,Married,Employed,Rural,199.45,47.4,Never Smoked,0
+48,Female,0,0,Married,Employed,Urban,135.93,38.85,Never Smoked,0
+75,Female,0,0,Married,Government,Urban,259.47,25.29,Current Smoker,1
+28,Male,0,0,Married,Employed,Urban,158.75,45.46,Never Smoked,0
+52,Male,0,0,Married,Unemployed,Urban,148.33,15.41,Current Smoker,0
+54,Female,0,0,Single,Employed,Urban,252.16,39.12,Current Smoker,0
+49,Male,0,0,Married,Unemployed,Urban,89.69,34.06,Unknown,0
+50,Male,1,0,Married,Unemployed,Urban,156.89,31.66,Never Smoked,0
+49,Male,1,0,Married,Employed,Urban,105.11,27.72,Never Smoked,1
+66,Male,0,0,Single,Employed,Urban,128.3,43.81,Former Smoker,0
+39,Male,1,0,Married,Employed,Urban,193.61,42.78,Never Smoked,0
+71,Female,0,1,Married,Employed,Urban,119.6,28.71,Current Smoker,1
+82,Female,1,0,Married,Employed,Rural,197.53,19.47,Never Smoked,1
+21,Male,0,0,Married,Employed,Urban,173.15,34.61,Current Smoker,0
+88,Female,0,0,Married,Government,Urban,122.17,45.53,Current Smoker,0
+82,Female,0,0,Single,Unemployed,Urban,119.26,36.49,Former Smoker,0
+87,Female,0,0,Single,Employed,Urban,294.87,42.56,Former Smoker,0
+80,Male,1,0,Single,Employed,Urban,134.84,43.48,Never Smoked,0
+36,Male,0,0,Married,Employed,Urban,246.13,36.16,Former Smoker,0
+87,Female,0,0,Single,Employed,Urban,257.27,27.05,Never Smoked,0
+74,Female,1,0,Married,Employed,Urban,216.74,23.02,Unknown,0
+77,Female,0,0,Single,Government,Urban,201.26,22.68,Never Smoked,1
+65,Female,1,0,Single,Employed,Urban,198.53,47.85,Never Smoked,1
+78,Male,0,0,Single,Student/Dependent,Urban,206.53,41.69,Never Smoked,1
+66,Male,0,0,Married,Employed,Rural,222.15,,Former Smoker,0
+43,Male,0,0,Single,Employed,Rural,299.31,27.62,Former Smoker,1
+65,Female,0,1,Married,Employed,Urban,186.01,39.82,Never Smoked,0
+64,Female,1,0,Married,Employed,Urban,237.55,25.05,Former Smoker,1
+60,Male,0,0,Married,Unemployed,Urban,159.27,29.52,Current Smoker,0
+24,Female,1,0,Married,Government,Urban,230.57,37.72,Unknown,0
+35,Male,0,0,Single,Employed,Urban,138.64,29.06,Never Smoked,0
+53,Male,1,0,Married,Employed,Urban,255.37,35.58,Unknown,0
+43,Male,0,0,Single,Employed,Urban,295.41,40.47,Never Smoked,0
+66,Female,0,0,Married,Employed,Urban,249.71,49.83,Never Smoked,0
+67,Male,0,0,Married,Unemployed,Urban,196.13,16.54,Never Smoked,0
+42,Male,1,0,Married,Employed,Urban,144.08,42.44,Current Smoker,0
+26,Male,1,0,Married,Government,Rural,94.27,40.08,Never Smoked,1
+64,Female,0,0,Single,Employed,Urban,128.01,16.03,Former Smoker,0
+34,Female,1,0,Single,Government,Urban,171.48,16.8,Former Smoker,0
+78,Male,1,0,Single,Employed,Urban,211.99,46.26,Never Smoked,0
+61,Female,0,0,Married,Student/Dependent,Urban,285.41,33.23,Unknown,0
+40,Male,0,0,Single,Employed,Urban,169.76,26.49,Unknown,0
+33,Male,0,0,Married,Student/Dependent,Urban,298.43,47.66,Never Smoked,0
+35,Male,1,1,Married,Employed,Rural,253.53,44.35,Current Smoker,1
+72,Male,0,0,Married,Employed,Urban,277.71,41.0,Never Smoked,0
+65,Male,0,0,Married,Student/Dependent,Rural,112.2,33.63,Never Smoked,0
+53,Female,0,0,Single,Unemployed,Urban,254.32,41.18,Former Smoker,0
+64,Female,0,1,Married,Employed,Urban,129.58,48.12,Never Smoked,1
+84,Male,0,0,Married,Unemployed,Urban,102.91,15.19,Former Smoker,0
+87,Male,0,0,Married,Employed,Urban,241.13,40.96,Current Smoker,0
+28,Male,0,1,Married,Student/Dependent,Urban,157.85,31.81,Never Smoked,0
+29,Female,1,0,Single,Employed,Urban,227.95,34.42,Current Smoker,0
+23,Female,0,0,Married,Government,Urban,123.26,25.91,Unknown,0
+33,Male,1,1,Married,Unemployed,Urban,298.16,29.34,Never Smoked,1
+90,Female,0,0,Single,Government,Urban,268.62,15.65,Never Smoked,1
+26,Female,0,0,Married,Student/Dependent,Urban,76.52,31.46,Never Smoked,0
+44,Female,0,1,Single,Student/Dependent,Rural,186.02,,Current Smoker,0
+29,Male,0,0,Married,Unemployed,Urban,109.27,35.84,Former Smoker,0
+64,Male,0,0,Married,Employed,Urban,162.66,25.29,Unknown,0
+54,Female,1,0,Married,Student/Dependent,Urban,155.04,26.82,Never Smoked,0
+47,Female,1,0,Married,Employed,Rural,135.16,17.64,Former Smoker,0
+68,Female,0,0,Married,Student/Dependent,Urban,110.82,22.42,Former Smoker,0
+26,Male,1,0,Single,Employed,Urban,214.91,47.73,Former Smoker,0
+74,Female,0,0,Married,Government,Rural,168.81,15.65,Never Smoked,0
+45,Male,0,0,Married,Unemployed,Rural,98.27,26.09,Never Smoked,0
+54,Female,1,0,Married,Employed,Urban,267.77,31.23,Former Smoker,1
+30,Female,0,0,Married,Student/Dependent,Urban,252.15,15.24,Never Smoked,0
+22,Male,0,0,Married,Employed,Urban,176.62,19.16,Never Smoked,0
+36,Female,1,0,Married,Employed,Urban,241.61,39.78,Never Smoked,0
+45,Female,0,1,Married,Employed,Urban,93.24,22.6,Former Smoker,1
+89,Male,1,0,Married,Employed,Urban,155.93,28.16,Former Smoker,0
+28,Female,0,1,Married,Unemployed,Urban,74.13,42.11,Never Smoked,0
+33,Female,0,0,Married,Employed,Urban,280.12,39.47,Unknown,0
+81,Male,0,0,Single,Employed,Urban,161.14,46.94,Unknown,0
+42,Female,0,0,Married,Unemployed,Urban,270.92,46.15,Never Smoked,0
+31,Female,0,0,Married,Employed,Urban,220.43,28.77,Never Smoked,0
+46,Female,0,0,Married,Employed,Urban,200.08,36.44,Never Smoked,0
+46,Female,0,0,Single,Employed,Rural,226.74,33.72,Unknown,0
+89,Female,0,0,Single,Employed,Urban,290.3,31.68,Current Smoker,0
+59,Female,1,0,Single,Employed,Urban,214.61,23.11,Never Smoked,1
+85,Male,0,0,Single,Employed,Urban,238.68,27.6,Current Smoker,0
+21,Female,0,1,Married,Employed,Urban,293.95,46.93,Never Smoked,0
+51,Male,0,0,Married,Student/Dependent,Urban,230.09,28.84,Former Smoker,0
+77,Male,0,1,Married,Student/Dependent,Urban,267.29,32.37,Never Smoked,1
+20,Male,0,0,Married,Employed,Urban,78.19,18.39,Current Smoker,0
+67,Male,1,0,Married,Government,Urban,161.28,28.64,Current Smoker,0
+57,Male,0,0,Married,Government,Urban,288.59,15.18,Never Smoked,0
+30,Female,0,1,Single,Employed,Urban,102.21,42.29,Never Smoked,1
+72,Male,1,0,Married,Employed,Urban,273.92,34.35,Never Smoked,0
+24,Female,0,0,Married,Employed,Rural,184.53,36.22,Never Smoked,0
+45,Female,0,0,Single,Employed,Urban,229.05,18.84,Former Smoker,1
+26,Female,0,0,Single,Government,Urban,216.61,45.12,Never Smoked,0
+33,Female,0,0,Married,Employed,Urban,216.09,36.54,Never Smoked,0
+36,Male,1,1,Married,Employed,Urban,289.22,16.59,Current Smoker,1
+39,Male,0,0,Single,Employed,Urban,179.47,23.8,Unknown,0
+28,Male,0,0,Married,Employed,Rural,234.83,34.53,Current Smoker,1
+53,Male,0,0,Married,Employed,Urban,201.4,27.57,Never Smoked,0
+41,Female,0,0,Married,Employed,Urban,269.4,,Never Smoked,0
+59,Male,0,0,Married,Employed,Urban,186.56,15.03,Former Smoker,0
+81,Female,1,1,Married,Student/Dependent,Urban,240.97,36.12,Never Smoked,1
+40,Male,0,0,Married,Student/Dependent,Urban,296.88,44.19,Never Smoked,0
+81,Female,1,0,Married,Employed,Urban,243.19,28.14,Unknown,1
+28,Male,0,0,Married,Employed,Urban,252.71,44.62,Never Smoked,0
+22,Male,0,0,Married,Employed,Urban,163.4,26.77,Current Smoker,0
+78,Male,0,1,Married,Employed,Urban,252.32,21.52,Never Smoked,0
+78,Female,0,0,Single,Employed,Urban,150.09,29.33,Never Smoked,1
+81,Male,1,1,Married,Employed,Urban,209.97,25.52,Never Smoked,1
+35,Female,0,0,Married,Employed,Urban,116.26,43.94,Never Smoked,0
+41,Male,1,1,Single,Government,Urban,94.71,29.98,Never Smoked,1
+66,Female,0,0,Married,Employed,Rural,274.77,16.75,Never Smoked,0
+80,Female,1,0,Married,Employed,Rural,136.46,32.08,Current Smoker,1
+22,Male,0,0,Married,Student/Dependent,Rural,74.34,15.35,Unknown,0
+40,Female,1,0,Married,Employed,Rural,278.94,21.98,Never Smoked,0
+23,Male,1,0,Married,Unemployed,Urban,115.66,44.24,Current Smoker,0
+44,Male,0,0,Married,Employed,Urban,171.23,40.12,Former Smoker,0
+45,Female,0,0,Married,Employed,Urban,167.26,48.45,Never Smoked,0
+64,Male,0,0,Married,Employed,Urban,282.17,49.17,Never Smoked,1
+85,Female,0,0,Married,Employed,Urban,206.14,36.79,Unknown,0
+28,Male,1,0,Married,Unemployed,Urban,239.47,27.44,Current Smoker,0
+45,Female,0,0,Married,Employed,Rural,142.07,19.77,Never Smoked,0
+51,Male,0,0,Single,Employed,Rural,186.96,35.54,Never Smoked,0
+53,Male,0,0,Married,Employed,Urban,148.29,31.64,Never Smoked,0
+82,Female,0,0,Married,Employed,Urban,161.02,,Current Smoker,1
+63,Male,0,0,Single,Employed,Urban,256.58,28.19,Never Smoked,0
+53,Female,0,0,Single,Employed,Urban,166.22,37.61,Current Smoker,0
+22,Female,0,0,Married,Employed,Urban,235.66,16.48,Never Smoked,0
+22,Female,0,0,Married,Employed,Urban,278.22,49.94,Never Smoked,0
+31,Female,1,0,Married,Employed,Urban,171.87,23.13,Never Smoked,0
+69,Male,0,0,Married,Employed,Urban,254.7,47.4,Unknown,0
+42,Female,0,0,Married,Unemployed,Urban,208.98,25.36,Former Smoker,0
+39,Female,0,0,Single,Employed,Urban,282.67,17.55,Never Smoked,0
+23,Male,0,0,Married,Unemployed,Rural,264.61,18.45,Current Smoker,0
+45,Female,1,0,Single,Employed,Urban,86.34,34.8,Never Smoked,1
+36,Female,0,0,Married,Government,Urban,283.42,32.93,Current Smoker,0
+80,Male,0,0,Married,Unemployed,Urban,92.45,45.94,Never Smoked,1
+83,Male,0,1,Married,Employed,Urban,291.46,26.58,Never Smoked,1
+79,Female,1,1,Single,Employed,Urban,256.4,16.38,Former Smoker,1
+33,Male,0,0,Married,Employed,Urban,90.0,38.7,Never Smoked,0
+34,Male,0,0,Married,Employed,Urban,290.78,,Never Smoked,0
+72,Female,1,0,Single,Student/Dependent,Urban,129.14,27.25,Current Smoker,0
+43,Female,0,0,Married,Employed,Urban,288.19,39.79,Never Smoked,0
+35,Female,0,0,Single,Employed,Urban,170.52,17.5,Former Smoker,1
+28,Female,0,1,Married,Unemployed,Urban,99.22,28.31,Never Smoked,0
+83,Male,0,0,Married,Employed,Urban,129.19,20.92,Current Smoker,1
+30,Female,1,1,Married,Employed,Urban,180.58,46.63,Never Smoked,0
+34,Male,0,0,Single,Employed,Urban,209.32,23.87,Never Smoked,0
+44,Male,1,1,Married,Employed,Rural,247.4,26.69,Unknown,0
+31,Male,0,0,Single,Unemployed,Urban,274.14,22.39,Unknown,1
+57,Female,0,0,Married,Employed,Urban,189.06,,Never Smoked,0
+31,Female,0,0,Single,Government,Rural,179.4,28.31,Former Smoker,0
+59,Female,0,0,Single,Unemployed,Urban,247.76,37.89,Never Smoked,0
+62,Male,1,0,Married,Government,Urban,209.5,21.44,Never Smoked,1
+24,Male,0,0,Married,Employed,Urban,276.87,,Current Smoker,1
+70,Female,0,0,Single,Unemployed,Urban,72.19,49.71,Former Smoker,0
+52,Male,0,0,Single,Employed,Urban,276.98,31.11,Never Smoked,1
+43,Male,1,0,Married,Employed,Urban,127.98,25.92,Former Smoker,1
+61,Female,0,0,Married,Employed,Urban,216.72,42.48,Former Smoker,0
+54,Female,0,0,Married,Employed,Urban,234.6,19.63,Current Smoker,0
+36,Female,0,1,Single,Student/Dependent,Rural,271.82,20.42,Current Smoker,1
+30,Female,1,0,Married,Government,Rural,240.38,23.48,Never Smoked,1
+82,Female,0,0,Married,Employed,Urban,210.64,33.53,Never Smoked,0
+83,Male,0,1,Married,Employed,Urban,99.98,28.94,Current Smoker,0
+83,Female,1,0,Married,Employed,Urban,192.1,32.27,Never Smoked,1
+26,Female,0,0,Married,Government,Rural,253.3,36.5,Never Smoked,0
+69,Male,0,1,Single,Employed,Rural,89.6,43.74,Never Smoked,1
+80,Male,0,0,Married,Unemployed,Urban,174.73,30.76,Never Smoked,1
+41,Male,0,0,Married,Employed,Urban,228.08,37.17,Never Smoked,0
+46,Female,0,0,Single,Employed,Urban,219.52,22.16,Former Smoker,0
+33,Male,0,0,Married,Employed,Rural,111.08,18.74,Never Smoked,0
+73,Male,0,1,Single,Employed,Rural,186.16,22.82,Current Smoker,1
+66,Male,0,0,Married,Employed,Urban,144.95,15.07,Never Smoked,0
+44,Male,0,1,Single,Employed,Urban,201.3,31.02,Current Smoker,1
+40,Female,0,0,Married,Employed,Urban,173.25,28.7,Current Smoker,0
+90,Female,1,0,Single,Student/Dependent,Urban,122.31,31.47,Never Smoked,1
+39,Male,0,0,Married,Employed,Urban,110.02,38.93,Never Smoked,0
+42,Male,0,0,Single,Employed,Urban,291.14,34.39,Current Smoker,1
+70,Female,1,0,Married,Government,Urban,254.31,38.23,Former Smoker,0
+87,Female,1,0,Married,Employed,Urban,201.23,49.78,Never Smoked,1
+68,Male,1,0,Single,Government,Urban,141.13,35.3,Never Smoked,0
+43,Male,1,0,Married,Government,Urban,72.65,20.6,Former Smoker,0
+48,Female,0,0,Single,Government,Urban,125.64,28.02,Former Smoker,0
+55,Male,0,0,Married,Unemployed,Urban,106.06,21.15,Never Smoked,0
+40,Female,0,0,Married,Unemployed,Rural,167.61,26.86,Never Smoked,0
+79,Male,1,0,Married,Employed,Urban,83.29,19.93,Never Smoked,1
+27,Male,1,0,Married,Employed,Rural,197.29,31.58,Former Smoker,0
+20,Male,0,0,Married,Employed,Rural,218.72,28.95,Former Smoker,0
+39,Male,0,0,Married,Unemployed,Rural,210.8,45.06,Never Smoked,0
+50,Female,1,0,Single,Employed,Urban,142.45,49.93,Never Smoked,0
+80,Female,0,0,Married,Unemployed,Urban,295.06,40.76,Current Smoker,0
+52,Female,0,0,Married,Employed,Urban,171.49,37.2,Never Smoked,1
+66,Male,0,0,Married,Unemployed,Urban,184.51,,Never Smoked,0
+25,Male,0,0,Married,Employed,Rural,212.47,34.17,Current Smoker,0
+38,Male,1,0,Married,Unemployed,Rural,184.57,45.57,Never Smoked,1
+54,Male,0,0,Married,Unemployed,Urban,79.42,33.84,Never Smoked,0
+77,Female,0,0,Married,Employed,Rural,209.17,33.69,Never Smoked,1
+34,Male,1,0,Married,Employed,Rural,297.3,,Current Smoker,0
+68,Male,0,1,Single,Employed,Rural,159.72,25.54,Former Smoker,1
+73,Female,1,0,Married,Employed,Urban,99.28,24.28,Never Smoked,0
+85,Male,0,0,Married,Employed,Urban,220.91,23.81,Current Smoker,1
+67,Male,0,0,Married,Government,Urban,140.25,38.21,Never Smoked,0
+78,Female,1,1,Married,Unemployed,Urban,134.51,32.68,Former Smoker,1
+84,Female,0,0,Married,Employed,Rural,163.84,31.85,Never Smoked,0
+70,Male,1,1,Married,Employed,Urban,210.23,,Never Smoked,1
+53,Male,0,0,Married,Unemployed,Urban,149.99,27.87,Unknown,0
+34,Male,1,1,Married,Government,Rural,146.67,27.95,Former Smoker,1
+63,Female,0,1,Married,Government,Rural,118.14,34.69,Current Smoker,0
+76,Male,0,1,Single,Employed,Urban,249.52,24.81,Never Smoked,1
+54,Male,0,0,Married,Employed,Urban,165.41,30.67,Never Smoked,0
+27,Female,0,0,Married,Employed,Urban,221.61,24.26,Former Smoker,0
+43,Female,0,0,Single,Government,Rural,296.75,17.41,Never Smoked,0
+76,Female,0,0,Married,Unemployed,Rural,91.4,35.02,Former Smoker,1
+71,Female,1,0,Married,Unemployed,Urban,75.4,20.66,Unknown,1
+59,Male,0,0,Single,Government,Urban,183.58,,Former Smoker,0
+81,Male,1,0,Married,Employed,Urban,240.27,19.04,Current Smoker,1
+31,Female,1,0,Married,Employed,Urban,173.86,45.21,Current Smoker,0
+30,Male,0,1,Married,Government,Urban,256.97,28.93,Unknown,0
+68,Male,1,0,Married,Employed,Urban,225.85,31.65,Unknown,0
+71,Female,1,0,Married,Unemployed,Urban,100.11,29.08,Never Smoked,0
+52,Male,0,0,Married,Employed,Urban,109.75,33.78,Never Smoked,0
+26,Male,0,0,Married,Employed,Urban,170.29,29.1,Never Smoked,0
+70,Female,0,0,Married,Student/Dependent,Urban,132.26,17.53,Former Smoker,0
+53,Male,0,1,Married,Employed,Urban,232.62,19.29,Current Smoker,0
+65,Male,0,0,Married,Employed,Urban,87.27,45.03,Former Smoker,0
+84,Female,0,0,Single,Employed,Urban,173.08,27.75,Never Smoked,0
+50,Female,0,0,Single,Government,Urban,159.95,26.37,Never Smoked,1
+45,Male,0,0,Single,Employed,Urban,248.22,48.37,Never Smoked,0
+63,Male,1,0,Married,Employed,Urban,260.53,38.54,Unknown,1
+56,Male,0,0,Married,Government,Urban,188.01,40.54,Never Smoked,0
+81,Male,1,1,Married,Government,Rural,161.46,19.86,Never Smoked,1
+42,Male,0,1,Married,Government,Urban,140.99,32.76,Former Smoker,0
+48,Male,0,0,Single,Unemployed,Urban,188.94,16.0,Never Smoked,0
+67,Female,0,0,Single,Employed,Urban,237.83,49.16,Never Smoked,1
+89,Male,0,0,Single,Employed,Urban,223.55,28.16,Never Smoked,0
+32,Male,1,0,Married,Employed,Rural,184.13,36.97,Never Smoked,0
+42,Female,0,0,Single,Employed,Rural,256.57,32.42,Former Smoker,0
+20,Male,0,0,Married,Unemployed,Urban,82.02,47.98,Never Smoked,0
+77,Male,0,1,Married,Employed,Urban,240.71,31.12,Never Smoked,1
+68,Male,1,0,Single,Student/Dependent,Urban,90.19,34.69,Current Smoker,0
+55,Female,0,0,Married,Unemployed,Urban,111.68,37.32,Former Smoker,1
+20,Male,1,0,Single,Employed,Urban,115.38,37.88,Never Smoked,0
+78,Male,0,1,Single,Employed,Rural,275.87,31.27,Former Smoker,0
+36,Male,0,0,Married,Employed,Urban,224.27,43.39,Never Smoked,0
+20,Male,0,0,Single,Unemployed,Rural,243.75,16.86,Never Smoked,0
+72,Male,0,0,Married,Employed,Urban,199.79,36.83,Never Smoked,0
+61,Male,0,0,Single,Employed,Urban,168.12,34.25,Never Smoked,0
+24,Male,0,1,Married,Employed,Urban,120.95,49.84,Current Smoker,0
+73,Female,0,0,Married,Employed,Rural,99.32,33.34,Never Smoked,0
+39,Male,0,1,Married,Employed,Urban,238.02,44.55,Never Smoked,0
+58,Female,0,0,Married,Student/Dependent,Rural,233.14,37.88,Former Smoker,0
+44,Female,0,0,Single,Employed,Urban,136.22,35.14,Never Smoked,0
+71,Female,0,0,Married,Employed,Urban,209.01,42.58,Current Smoker,0
+76,Female,0,0,Married,Employed,Rural,245.63,45.11,Current Smoker,1
+71,Female,0,0,Married,Government,Urban,171.56,43.0,Never Smoked,0
+36,Male,0,0,Married,Government,Rural,92.29,46.47,Never Smoked,0
+57,Female,0,0,Married,Unemployed,Rural,271.55,44.65,Never Smoked,0
+20,Male,0,0,Married,Employed,Urban,270.58,30.21,Never Smoked,0
+42,Female,0,0,Married,Government,Urban,189.79,23.9,Never Smoked,0
+21,Female,0,0,Single,Employed,Urban,85.16,26.15,Never Smoked,0
+68,Male,0,0,Married,Employed,Urban,235.0,37.18,Former Smoker,0
+78,Male,0,0,Married,Employed,Urban,286.8,26.64,Current Smoker,0
+83,Male,0,0,Single,Government,Urban,127.92,18.1,Never Smoked,0
+76,Female,1,0,Single,Government,Urban,101.34,18.12,Current Smoker,1
+57,Male,1,0,Married,Employed,Urban,76.67,49.35,Never Smoked,0
+82,Male,1,1,Married,Employed,Rural,209.55,42.85,Never Smoked,1
+59,Female,0,1,Married,Unemployed,Urban,250.74,48.03,Never Smoked,0
+83,Female,0,0,Single,Employed,Urban,273.17,41.24,Never Smoked,1
+23,Male,0,0,Married,Employed,Urban,278.67,39.86,Never Smoked,0
+38,Male,0,0,Single,Employed,Urban,168.07,29.75,Current Smoker,0
+78,Male,0,1,Married,Government,Urban,79.27,30.13,Current Smoker,0
+22,Female,0,1,Married,Employed,Urban,293.31,35.23,Never Smoked,0
+56,Male,1,0,Married,Employed,Urban,207.84,44.22,Former Smoker,0
+59,Female,1,0,Married,Student/Dependent,Rural,250.36,29.49,Current Smoker,0
+81,Male,0,0,Married,Employed,Urban,286.66,,Never Smoked,1
+30,Male,0,1,Single,Employed,Rural,127.49,47.98,Current Smoker,0
+47,Female,0,0,Married,Employed,Urban,204.75,23.85,Former Smoker,0
+75,Male,0,0,Married,Employed,Urban,84.83,32.92,Unknown,0
+82,Male,1,0,Single,Employed,Urban,298.34,43.26,Never Smoked,1
+83,Female,1,0,Married,Employed,Urban,122.92,40.18,Unknown,1
+85,Female,1,0,Married,Employed,Rural,174.48,18.81,Unknown,1
+52,Male,0,0,Married,Student/Dependent,Urban,221.16,40.23,Unknown,0
+37,Male,1,0,Married,Student/Dependent,Urban,170.46,22.53,Current Smoker,1
+76,Female,1,1,Married,Employed,Urban,230.2,35.32,Former Smoker,1
+63,Male,0,0,Married,Employed,Urban,291.44,20.51,Never Smoked,0
+27,Female,0,0,Single,Student/Dependent,Urban,164.7,21.27,Unknown,0
+39,Male,0,0,Married,Employed,Rural,233.0,40.67,Never Smoked,0
+76,Female,0,0,Married,Employed,Urban,74.38,43.98,Former Smoker,0
+64,Male,0,0,Single,Employed,Urban,175.18,49.51,Former Smoker,1
+24,Male,1,0,Married,Employed,Urban,176.85,22.74,Never Smoked,1
+54,Female,0,0,Single,Employed,Urban,204.75,44.52,Current Smoker,0
+68,Female,0,1,Married,Government,Rural,226.41,28.97,Never Smoked,1
+61,Female,0,0,Single,Employed,Urban,174.91,31.94,Never Smoked,0
+55,Female,0,0,Married,Unemployed,Urban,150.55,41.4,Never Smoked,0
+66,Male,1,0,Single,Employed,Urban,211.59,32.22,Current Smoker,0
+85,Female,0,1,Married,Employed,Urban,166.31,26.38,Former Smoker,1
+66,Male,0,0,Married,Student/Dependent,Urban,166.17,44.72,Unknown,0
+68,Female,1,0,Married,Government,Urban,231.48,46.78,Never Smoked,1
+79,Male,1,0,Married,Student/Dependent,Urban,218.22,16.17,Current Smoker,1
+75,Female,1,0,Married,Employed,Rural,228.0,27.96,Current Smoker,0
+20,Female,0,0,Single,Student/Dependent,Urban,266.08,38.27,Never Smoked,0
+39,Male,0,0,Married,Unemployed,Urban,116.69,18.93,Current Smoker,0
+73,Female,0,0,Married,Unemployed,Urban,279.89,23.41,Former Smoker,0
+22,Male,0,0,Married,Employed,Urban,99.25,23.4,Never Smoked,0
+55,Male,0,0,Single,Employed,Rural,251.3,19.05,Never Smoked,0
+66,Male,0,0,Single,Unemployed,Rural,119.29,38.86,Unknown,1
+35,Female,0,0,Single,Employed,Urban,108.04,20.6,Unknown,0
+46,Male,1,0,Single,Employed,Rural,146.58,37.65,Unknown,0
+21,Female,0,0,Single,Student/Dependent,Urban,78.94,25.86,Never Smoked,0
+48,Female,0,0,Single,Government,Urban,180.66,43.18,Current Smoker,0
+81,Male,0,0,Married,Government,Rural,273.38,31.13,Former Smoker,1
+34,Female,0,0,Single,Employed,Rural,99.01,20.36,Former Smoker,0
+40,Female,0,0,Married,Employed,Rural,190.62,15.83,Former Smoker,0
+70,Male,0,0,Married,Employed,Urban,130.29,49.25,Current Smoker,0
+80,Male,0,1,Married,Unemployed,Urban,165.73,44.63,Former Smoker,1
+38,Male,0,0,Married,Employed,Urban,132.11,48.85,Current Smoker,0
+84,Male,0,0,Married,Government,Urban,91.46,40.06,Current Smoker,0
+71,Male,0,0,Married,Employed,Urban,119.28,24.14,Never Smoked,0
+74,Male,0,0,Single,Employed,Urban,174.46,46.84,Never Smoked,0
+20,Male,0,0,Married,Unemployed,Rural,238.53,36.57,Never Smoked,0
+52,Male,0,1,Single,Employed,Urban,181.79,43.34,Never Smoked,0
+74,Female,0,0,Single,Employed,Urban,132.09,29.33,Never Smoked,0
+54,Female,1,0,Single,Student/Dependent,Urban,204.59,22.28,Unknown,0
+44,Female,0,0,Married,Unemployed,Urban,229.81,40.05,Never Smoked,0
+62,Female,1,0,Single,Employed,Rural,284.55,43.5,Never Smoked,1
+31,Male,0,1,Married,Employed,Urban,205.17,15.84,Unknown,0
+36,Female,1,0,Married,Unemployed,Urban,120.94,34.8,Current Smoker,0
+70,Female,1,0,Married,Student/Dependent,Urban,201.41,33.97,Former Smoker,1
+31,Male,1,0,Married,Employed,Urban,290.07,22.02,Never Smoked,1
+41,Female,0,0,Single,Government,Urban,145.75,20.82,Former Smoker,0
+55,Male,1,0,Married,Employed,Urban,233.28,49.98,Never Smoked,0
+84,Female,0,0,Married,Employed,Urban,225.51,31.52,Former Smoker,0
+46,Male,0,0,Married,Government,Urban,204.49,44.97,Current Smoker,0
+20,Female,0,0,Married,Employed,Urban,149.24,41.99,Never Smoked,0
+46,Male,0,1,Single,Student/Dependent,Urban,119.16,16.46,Former Smoker,0
+67,Male,0,0,Married,Government,Urban,123.93,40.61,Never Smoked,0
+86,Female,1,1,Single,Government,Urban,187.24,46.18,Former Smoker,1
+27,Male,1,0,Married,Employed,Urban,136.58,34.97,Never Smoked,0
+86,Female,0,0,Married,Employed,Rural,205.8,43.15,Never Smoked,0
+37,Female,0,0,Single,Employed,Urban,137.88,32.93,Unknown,0
+43,Female,0,0,Married,Employed,Urban,97.66,48.22,Former Smoker,1
+35,Male,0,0,Married,Employed,Rural,279.07,42.78,Never Smoked,0
+66,Female,0,0,Married,Unemployed,Urban,212.22,40.28,Former Smoker,0
+51,Female,0,0,Married,Employed,Urban,222.57,21.79,Never Smoked,0
+45,Male,1,0,Married,Government,Rural,280.93,15.72,Never Smoked,1
+46,Male,0,0,Married,Government,Urban,223.96,31.25,Never Smoked,0
+68,Female,0,0,Married,Unemployed,Rural,226.07,31.66,Never Smoked,0
+49,Male,1,0,Married,Employed,Urban,200.75,41.98,Never Smoked,0
+38,Female,0,1,Married,Student/Dependent,Rural,111.32,29.94,Never Smoked,0
+44,Male,1,0,Single,Unemployed,Urban,256.25,49.05,Former Smoker,1
+88,Male,1,0,Married,Employed,Urban,129.33,25.02,Never Smoked,1
+75,Male,1,0,Married,Employed,Urban,184.46,36.17,Never Smoked,0
+74,Female,0,0,Married,Employed,Urban,146.55,24.16,Former Smoker,0
+36,Female,0,0,Single,Employed,Urban,219.09,19.58,Never Smoked,0
+42,Male,1,0,Married,Government,Urban,102.57,21.04,Former Smoker,0
+50,Female,1,0,Married,Employed,Rural,164.54,41.09,Current Smoker,1
+63,Male,1,0,Married,Employed,Urban,136.21,34.22,Current Smoker,0
+38,Female,0,1,Married,Employed,Urban,298.69,42.74,Never Smoked,1
+64,Female,0,0,Married,Government,Urban,164.12,32.59,Never Smoked,1
+22,Male,0,0,Married,Government,Urban,194.51,33.98,Never Smoked,0
+30,Female,0,0,Married,Government,Urban,181.87,35.4,Former Smoker,0
+31,Female,1,1,Married,Employed,Rural,287.49,40.51,Never Smoked,0
+64,Male,1,1,Married,Employed,Rural,115.19,26.65,Never Smoked,0
+24,Female,0,0,Married,Employed,Urban,133.72,17.04,Never Smoked,0
+87,Female,1,0,Single,Student/Dependent,Rural,228.69,26.26,Never Smoked,1
+72,Male,0,0,Married,Employed,Urban,92.02,23.7,Never Smoked,0
+29,Female,0,0,Married,Employed,Urban,281.63,49.02,Never Smoked,0
+60,Male,0,0,Married,Employed,Urban,188.24,29.65,Never Smoked,0
+53,Male,0,1,Single,Unemployed,Rural,266.06,20.98,Former Smoker,0
+73,Male,1,0,Single,Employed,Urban,84.95,28.31,Former Smoker,1
+31,Male,1,1,Married,Employed,Rural,183.13,41.58,Never Smoked,0
+55,Female,0,0,Married,Government,Urban,153.97,46.1,Never Smoked,0
+38,Male,0,0,Married,Unemployed,Rural,213.23,47.52,Former Smoker,0
+39,Female,1,0,Married,Employed,Rural,139.79,22.94,Current Smoker,0
+82,Male,0,0,Married,Unemployed,Rural,85.35,18.19,Former Smoker,1
+34,Female,0,0,Married,Employed,Urban,204.37,29.59,Former Smoker,0
+23,Male,1,0,Married,Unemployed,Urban,193.32,40.54,Never Smoked,0
+40,Male,0,1,Married,Unemployed,Urban,286.97,28.7,Never Smoked,0
+66,Female,0,0,Married,Employed,Urban,174.03,41.81,Never Smoked,0
+32,Female,0,1,Married,Employed,Urban,77.86,36.84,Current Smoker,0
+29,Female,0,0,Married,Employed,Urban,185.74,41.48,Never Smoked,0
+23,Male,1,0,Single,Employed,Urban,162.45,,Current Smoker,0
+24,Male,0,0,Married,Unemployed,Urban,96.21,37.46,Never Smoked,0
+49,Male,1,0,Married,Government,Rural,126.75,30.77,Never Smoked,0
+37,Male,1,1,Married,Unemployed,Urban,172.15,33.81,Never Smoked,0
+54,Female,1,0,Single,Employed,Urban,114.29,39.15,Never Smoked,1
+60,Male,0,0,Married,Employed,Urban,276.49,,Former Smoker,0
+78,Male,0,0,Married,Employed,Urban,117.04,45.54,Never Smoked,0
+38,Female,0,0,Married,Employed,Urban,83.46,45.49,Former Smoker,0
+82,Male,0,0,Single,Government,Urban,261.65,21.38,Never Smoked,0
+71,Male,0,0,Married,Employed,Urban,156.01,40.44,Current Smoker,0
+46,Male,1,0,Married,Employed,Urban,201.9,22.74,Former Smoker,1
+33,Male,0,0,Married,Employed,Urban,190.33,47.47,Former Smoker,0
+52,Male,0,0,Single,Unemployed,Urban,210.17,37.4,Current Smoker,0
+81,Female,0,1,Married,Employed,Rural,269.49,45.67,Never Smoked,1
+46,Female,1,0,Married,Employed,Rural,238.46,28.4,Former Smoker,1
+59,Male,1,0,Single,Employed,Rural,193.83,22.87,Former Smoker,0
+44,Female,1,0,Married,Employed,Rural,274.5,27.78,Never Smoked,1
+39,Male,0,1,Married,Unemployed,Urban,134.55,32.21,Unknown,1
+86,Female,1,0,Married,Student/Dependent,Rural,156.49,42.06,Never Smoked,0
+64,Male,0,0,Single,Employed,Rural,142.7,47.65,Never Smoked,0
+41,Female,1,1,Married,Government,Urban,236.62,21.52,Never Smoked,0
+38,Female,0,0,Married,Employed,Urban,111.35,40.86,Former Smoker,0
+38,Female,0,0,Married,Government,Urban,109.26,39.34,Never Smoked,0
+71,Male,0,1,Single,Employed,Rural,132.83,47.02,Former Smoker,0
+35,Female,0,0,Single,Unemployed,Urban,142.97,42.09,Never Smoked,0
+81,Male,1,1,Married,Unemployed,Urban,115.97,44.42,Unknown,1
+26,Male,1,0,Married,Unemployed,Rural,120.63,41.95,Never Smoked,0
+52,Female,1,0,Married,Employed,Urban,81.31,22.95,Current Smoker,1
+26,Male,0,0,Married,Employed,Urban,187.65,32.4,Never Smoked,0
+37,Male,0,0,Married,Employed,Urban,149.64,23.05,Never Smoked,0
+36,Female,0,0,Married,Unemployed,Rural,227.67,24.25,Never Smoked,0
+28,Female,0,0,Single,Employed,Urban,228.5,34.32,Current Smoker,0
+81,Male,1,0,Married,Employed,Urban,136.7,,Never Smoked,1
+78,Male,0,0,Single,Employed,Urban,121.28,45.61,Never Smoked,0
+76,Male,0,0,Single,Employed,Rural,75.18,31.27,Never Smoked,0
+53,Female,0,0,Married,Employed,Urban,221.97,22.39,Never Smoked,0
+80,Female,0,1,Married,Employed,Urban,179.56,46.6,Never Smoked,0
+22,Male,0,0,Married,Employed,Urban,124.28,24.99,Former Smoker,0
+86,Female,0,0,Married,Employed,Urban,85.59,38.34,Never Smoked,0
+65,Male,1,0,Single,Employed,Urban,157.39,43.6,Never Smoked,1
+40,Male,1,0,Married,Government,Urban,119.71,32.34,Never Smoked,0
+79,Male,0,0,Single,Student/Dependent,Urban,292.1,34.43,Current Smoker,0
+49,Female,0,0,Married,Employed,Urban,99.2,39.34,Current Smoker,0
+43,Male,1,0,Single,Unemployed,Urban,263.53,18.76,Never Smoked,1
+78,Female,0,0,Married,Employed,Urban,184.01,19.76,Never Smoked,0
+61,Female,0,0,Married,Employed,Urban,230.13,18.58,Never Smoked,0
+78,Male,1,0,Single,Employed,Urban,193.48,29.84,Current Smoker,0
+50,Male,0,0,Married,Student/Dependent,Urban,180.82,39.61,Never Smoked,0
+73,Female,1,0,Married,Employed,Urban,112.74,24.29,Never Smoked,1
+25,Male,0,0,Married,Unemployed,Urban,264.4,34.79,Former Smoker,0
+56,Female,1,0,Married,Employed,Urban,94.82,49.45,Current Smoker,1
+89,Female,1,0,Single,Employed,Rural,256.37,15.33,Never Smoked,1
+44,Female,0,1,Married,Employed,Rural,209.14,35.67,Unknown,1
+74,Female,1,0,Single,Employed,Urban,169.32,19.69,Never Smoked,0
+87,Female,0,0,Married,Student/Dependent,Rural,248.34,16.66,Never Smoked,0
+72,Male,0,0,Married,Government,Urban,250.16,32.79,Never Smoked,1
+74,Male,1,0,Married,Employed,Urban,164.42,28.34,Never Smoked,0
+52,Male,0,0,Single,Unemployed,Urban,219.89,20.14,Never Smoked,0
+58,Male,0,1,Single,Employed,Urban,189.64,15.03,Current Smoker,0
+56,Female,1,0,Married,Unemployed,Urban,142.75,,Never Smoked,0
+55,Female,1,0,Married,Government,Rural,266.33,20.65,Current Smoker,1
+87,Female,0,0,Married,Government,Urban,156.55,31.37,Unknown,1
+80,Male,0,0,Married,Employed,Urban,98.19,39.31,Never Smoked,0
+86,Female,0,0,Married,Employed,Rural,90.96,38.79,Unknown,0
+57,Male,0,0,Married,Employed,Urban,170.33,33.47,Never Smoked,0
+25,Female,0,1,Married,Employed,Urban,228.25,48.16,Never Smoked,0
+73,Female,0,0,Married,Unemployed,Urban,284.35,15.7,Never Smoked,0
+66,Male,0,0,Married,Unemployed,Urban,165.63,21.24,Never Smoked,0
+90,Female,1,0,Married,Employed,Urban,91.04,39.02,Never Smoked,0
+64,Male,0,0,Married,Unemployed,Rural,173.3,37.7,Never Smoked,0
+48,Female,1,1,Married,Employed,Urban,103.42,33.28,Current Smoker,0
+88,Male,0,0,Married,Employed,Rural,273.55,20.69,Never Smoked,0
+80,Male,0,1,Married,Employed,Urban,122.39,,Never Smoked,1
+67,Female,1,0,Married,Student/Dependent,Urban,190.78,18.71,Never Smoked,1
+22,Male,1,0,Married,Student/Dependent,Rural,106.26,26.96,Never Smoked,0
+38,Male,0,0,Married,Unemployed,Rural,158.54,33.72,Never Smoked,0
+81,Female,0,0,Single,Employed,Urban,284.73,29.33,Current Smoker,1
+48,Male,0,1,Married,Employed,Urban,281.65,41.51,Current Smoker,0
+80,Male,1,0,Married,Unemployed,Urban,286.96,45.8,Never Smoked,0
+33,Male,0,0,Single,Employed,Urban,70.01,32.53,Never Smoked,0
+38,Male,0,0,Married,Employed,Urban,71.56,43.8,Never Smoked,0
+21,Male,0,0,Single,Employed,Rural,132.42,36.38,Current Smoker,0
+70,Female,1,0,Single,Government,Rural,80.91,22.06,Never Smoked,0
+73,Female,0,0,Married,Employed,Urban,98.4,36.93,Never Smoked,0
+29,Male,1,0,Married,Employed,Urban,272.83,42.21,Never Smoked,0
+76,Female,0,0,Single,Employed,Urban,201.88,30.41,Never Smoked,0
+76,Female,1,1,Single,Employed,Rural,79.38,19.48,Never Smoked,1
+72,Male,0,0,Married,Government,Urban,239.92,28.8,Current Smoker,0
+85,Male,0,0,Single,Employed,Rural,220.34,21.52,Never Smoked,1
+33,Female,1,0,Single,Unemployed,Urban,254.81,22.93,Current Smoker,1
+81,Female,0,0,Single,Government,Urban,275.64,,Unknown,1
+37,Female,0,1,Single,Employed,Urban,236.42,23.19,Former Smoker,1
+81,Male,0,0,Single,Employed,Urban,110.5,27.39,Never Smoked,0
+54,Female,0,0,Married,Student/Dependent,Urban,260.71,27.06,Former Smoker,1
+44,Female,1,1,Single,Employed,Urban,258.39,46.89,Current Smoker,1
+86,Female,0,0,Married,Employed,Rural,100.5,23.62,Unknown,0
+28,Male,0,0,Married,Unemployed,Rural,270.67,31.6,Current Smoker,0
+85,Female,1,0,Married,Employed,Urban,182.21,19.97,Unknown,1
+53,Female,1,0,Married,Employed,Urban,202.37,16.67,Never Smoked,0
+35,Female,0,0,Single,Unemployed,Rural,250.7,,Current Smoker,0
+63,Female,0,1,Single,Employed,Urban,252.51,20.61,Never Smoked,1
+42,Female,0,0,Married,Government,Urban,89.29,47.77,Never Smoked,0
+33,Male,0,0,Married,Employed,Rural,98.93,45.81,Unknown,0
+78,Female,0,1,Single,Employed,Urban,165.2,44.24,Current Smoker,1
+43,Female,1,0,Single,Government,Rural,209.38,,Unknown,0
+83,Female,0,1,Single,Employed,Urban,129.4,31.11,Former Smoker,0
+89,Female,0,0,Single,Employed,Urban,254.59,34.22,Former Smoker,1
+68,Female,0,0,Married,Government,Urban,120.88,37.16,Never Smoked,0
+30,Female,1,0,Single,Employed,Urban,229.96,,Never Smoked,0
+66,Male,0,0,Married,Employed,Rural,74.51,46.01,Unknown,0
+81,Male,0,0,Married,Employed,Rural,143.52,31.11,Never Smoked,0
+20,Male,1,1,Single,Employed,Rural,264.89,45.06,Current Smoker,1
+33,Male,0,0,Married,Employed,Urban,147.35,23.83,Current Smoker,0
+79,Female,1,0,Single,Employed,Urban,153.97,40.21,Never Smoked,1
+32,Female,1,0,Married,Government,Urban,109.6,17.88,Current Smoker,0
+44,Female,0,0,Married,Government,Rural,205.46,38.51,Never Smoked,0
+76,Male,0,1,Married,Employed,Urban,89.27,47.04,Never Smoked,0
+75,Male,0,0,Single,Employed,Urban,113.25,41.22,Unknown,0
+35,Female,1,0,Married,Employed,Urban,174.28,18.65,Never Smoked,1
+20,Male,0,0,Married,Unemployed,Urban,198.07,46.72,Current Smoker,0
+56,Male,1,0,Married,Employed,Urban,141.52,34.85,Former Smoker,0
+68,Male,0,0,Single,Employed,Rural,218.02,32.32,Never Smoked,1
+63,Female,0,1,Married,Government,Urban,99.07,20.33,Former Smoker,0
+70,Male,0,0,Married,Employed,Urban,287.02,16.12,Never Smoked,1
+55,Male,0,0,Married,Employed,Urban,254.98,15.52,Current Smoker,0
+68,Female,0,0,Married,Employed,Rural,265.84,20.85,Never Smoked,0
+33,Female,0,0,Married,Student/Dependent,Urban,209.43,15.11,Never Smoked,0
+53,Male,0,0,Married,Employed,Rural,218.07,21.78,Unknown,0
+31,Female,0,0,Married,Employed,Urban,96.45,22.53,Current Smoker,0
+21,Female,0,0,Single,Unemployed,Urban,206.86,30.32,Never Smoked,0
+45,Male,0,0,Single,Employed,Urban,287.85,24.72,Never Smoked,0
+27,Male,0,0,Married,Employed,Urban,116.86,22.49,Unknown,0
+52,Male,1,0,Single,Employed,Urban,159.36,17.12,Current Smoker,0
+53,Female,0,0,Single,Employed,Urban,100.71,25.69,Unknown,0
+88,Female,1,0,Single,Employed,Rural,105.96,30.48,Current Smoker,1
+32,Female,0,1,Married,Unemployed,Urban,125.55,21.84,Unknown,0
+84,Male,0,0,Married,Student/Dependent,Urban,201.25,40.39,Former Smoker,0
+74,Female,1,0,Married,Government,Urban,154.77,25.1,Never Smoked,1
+41,Female,0,0,Single,Employed,Urban,159.53,20.97,Current Smoker,0
+58,Female,0,0,Married,Government,Urban,294.94,,Never Smoked,0
+55,Female,1,0,Single,Employed,Rural,219.29,18.3,Unknown,1
+42,Female,0,0,Single,Employed,Urban,279.53,33.26,Never Smoked,0
+62,Female,1,0,Married,Employed,Urban,247.19,39.04,Never Smoked,1
+27,Female,0,0,Married,Government,Urban,150.56,,Never Smoked,0
+51,Male,0,0,Single,Employed,Urban,191.82,44.68,Unknown,0
+45,Female,0,0,Married,Unemployed,Rural,220.74,32.63,Current Smoker,0
+31,Female,1,0,Married,Employed,Rural,227.11,28.53,Never Smoked,0
+60,Male,0,0,Married,Student/Dependent,Urban,72.23,36.87,Unknown,0
+37,Male,0,0,Married,Unemployed,Urban,277.92,39.28,Never Smoked,1
+27,Female,1,0,Single,Government,Urban,98.42,28.91,Former Smoker,0
+80,Female,1,1,Single,Employed,Urban,285.87,38.94,Current Smoker,1
+81,Male,0,0,Single,Employed,Urban,199.91,26.25,Current Smoker,1
+35,Female,1,0,Single,Employed,Urban,130.86,49.16,Never Smoked,0
+64,Male,0,0,Single,Employed,Urban,210.11,16.0,Never Smoked,0
+21,Male,1,1,Single,Employed,Rural,244.0,23.48,Former Smoker,1
+31,Male,0,1,Married,Employed,Urban,90.62,32.54,Unknown,1
+48,Female,0,0,Married,Employed,Rural,268.03,39.65,Never Smoked,0
+46,Female,1,1,Married,Employed,Urban,280.35,42.47,Never Smoked,0
+79,Female,0,1,Married,Unemployed,Rural,266.68,43.71,Never Smoked,1
+89,Male,1,0,Married,Unemployed,Urban,166.74,41.39,Never Smoked,1
+54,Male,0,0,Married,Student/Dependent,Urban,295.55,23.93,Current Smoker,0
+30,Female,1,0,Married,Employed,Urban,159.19,41.29,Never Smoked,0
+25,Female,1,0,Married,Student/Dependent,Urban,244.43,17.66,Never Smoked,0
+63,Female,1,0,Married,Unemployed,Urban,234.72,43.74,Never Smoked,1
+55,Female,0,0,Single,Student/Dependent,Rural,128.34,39.43,Former Smoker,0
+21,Female,0,0,Married,Unemployed,Rural,204.66,,Current Smoker,0
+43,Female,0,0,Married,Unemployed,Rural,271.97,15.7,Never Smoked,0
+61,Male,0,0,Married,Unemployed,Urban,290.8,47.83,Former Smoker,1
+46,Male,0,0,Married,Employed,Urban,256.47,30.19,Never Smoked,0
+47,Female,1,0,Married,Employed,Urban,147.49,25.62,Current Smoker,1
+36,Male,0,0,Single,Government,Rural,188.04,46.68,Unknown,0
+82,Female,1,0,Single,Employed,Urban,264.71,42.95,Never Smoked,1
+21,Female,1,0,Single,Employed,Urban,252.87,20.85,Never Smoked,0
+59,Male,0,0,Married,Government,Urban,189.49,26.59,Unknown,0
+67,Female,1,0,Married,Employed,Rural,72.45,34.49,Never Smoked,0
+57,Male,0,1,Married,Student/Dependent,Rural,191.23,33.16,Unknown,0
+87,Female,0,0,Single,Student/Dependent,Urban,241.2,24.6,Unknown,1
+52,Female,0,0,Married,Employed,Urban,263.06,30.88,Former Smoker,1
+51,Female,1,1,Married,Employed,Urban,243.62,32.94,Current Smoker,1
+68,Female,0,0,Single,Employed,Urban,183.85,43.87,Never Smoked,1
+83,Female,0,0,Married,Student/Dependent,Urban,276.69,26.64,Never Smoked,1
+22,Female,0,0,Single,Employed,Urban,268.08,16.95,Former Smoker,0
+59,Female,1,1,Married,Unemployed,Urban,231.5,39.67,Former Smoker,1
+86,Female,0,0,Married,Unemployed,Urban,231.91,19.82,Current Smoker,0
+39,Female,0,0,Married,Employed,Urban,270.46,30.13,Never Smoked,0
+44,Male,0,0,Married,Employed,Urban,142.07,46.82,Unknown,0
+78,Female,1,0,Married,Student/Dependent,Urban,216.76,48.22,Never Smoked,1
+66,Male,1,0,Married,Employed,Rural,192.43,17.04,Never Smoked,0
+63,Male,0,0,Single,Employed,Urban,127.83,21.17,Former Smoker,0
+64,Male,0,0,Single,Employed,Urban,289.86,37.19,Never Smoked,0
+87,Female,1,0,Single,Government,Urban,123.01,16.12,Never Smoked,0
+34,Female,0,0,Married,Unemployed,Urban,212.08,24.8,Never Smoked,0
+20,Male,0,0,Single,Student/Dependent,Urban,81.33,42.04,Never Smoked,0
+89,Male,0,0,Married,Unemployed,Rural,151.87,48.27,Unknown,1
+33,Male,1,0,Married,Student/Dependent,Urban,233.35,28.12,Never Smoked,0
+59,Male,0,0,Single,Employed,Urban,101.0,20.56,Current Smoker,0
+73,Male,1,1,Married,Employed,Rural,228.12,,Never Smoked,0
+72,Male,0,0,Married,Employed,Rural,122.52,,Current Smoker,0
+71,Female,0,0,Single,Employed,Urban,176.37,43.15,Never Smoked,0
+55,Female,0,0,Married,Unemployed,Rural,96.88,48.18,Never Smoked,0
+74,Female,0,1,Single,Employed,Urban,284.62,35.62,Current Smoker,1
+73,Male,1,0,Single,Employed,Rural,73.64,40.75,Never Smoked,1
+79,Female,0,0,Married,Student/Dependent,Rural,202.76,26.31,Never Smoked,0
+84,Female,1,1,Married,Employed,Urban,72.62,42.99,Never Smoked,1
+67,Male,0,0,Married,Employed,Urban,236.73,,Never Smoked,0
+42,Male,1,0,Married,Student/Dependent,Urban,81.97,25.87,Current Smoker,1
+51,Female,0,1,Married,Government,Urban,208.25,32.96,Never Smoked,1
+45,Male,0,0,Single,Employed,Rural,109.04,27.87,Former Smoker,0
+48,Male,0,0,Married,Student/Dependent,Urban,88.32,24.11,Current Smoker,0
+51,Male,0,0,Married,Employed,Urban,76.08,48.22,Current Smoker,1
+22,Female,0,0,Married,Government,Urban,221.41,16.89,Never Smoked,1
+24,Male,1,0,Married,Employed,Rural,142.17,39.35,Current Smoker,0
+81,Male,0,0,Married,Unemployed,Urban,99.97,26.51,Current Smoker,1
+87,Female,0,0,Married,Employed,Urban,72.93,18.3,Former Smoker,0
+58,Male,0,0,Married,Government,Urban,143.82,32.09,Never Smoked,0
+90,Male,0,0,Married,Student/Dependent,Urban,170.19,22.34,Former Smoker,1
+23,Female,1,0,Single,Employed,Urban,284.51,24.42,Never Smoked,1
+34,Male,1,1,Married,Employed,Rural,200.28,38.07,Never Smoked,0
+46,Female,1,0,Married,Employed,Urban,86.07,42.71,Current Smoker,0
+68,Male,1,0,Married,Employed,Urban,117.57,30.35,Former Smoker,0
+58,Male,0,1,Single,Employed,Urban,178.37,32.9,Current Smoker,0
+39,Male,0,0,Single,Employed,Urban,299.03,25.17,Former Smoker,0
+72,Male,0,0,Married,Employed,Urban,221.14,31.43,Never Smoked,0
+27,Female,1,0,Married,Employed,Urban,173.93,,Never Smoked,0
+57,Male,1,0,Single,Student/Dependent,Urban,283.39,31.44,Never Smoked,0
+78,Male,0,0,Married,Government,Urban,171.88,48.34,Unknown,0
+48,Male,1,0,Single,Unemployed,Urban,163.29,34.6,Never Smoked,0
+32,Male,0,0,Single,Unemployed,Rural,293.96,29.67,Current Smoker,0
+36,Female,1,0,Single,Employed,Rural,78.0,27.79,Never Smoked,0
+27,Female,1,0,Married,Employed,Urban,296.78,27.82,Never Smoked,0
+20,Female,0,0,Married,Employed,Rural,101.5,23.12,Never Smoked,0
+81,Female,0,0,Single,Government,Urban,186.09,45.02,Never Smoked,1
+81,Male,0,0,Single,Employed,Urban,207.12,,Current Smoker,0
+23,Female,0,0,Married,Employed,Urban,135.2,40.22,Never Smoked,0
+88,Male,1,0,Single,Employed,Urban,101.79,42.52,Current Smoker,0
+76,Male,1,0,Married,Employed,Urban,194.21,48.52,Former Smoker,0
+70,Male,0,0,Married,Unemployed,Rural,107.76,29.96,Former Smoker,0
+76,Female,0,0,Married,Student/Dependent,Urban,214.65,21.71,Never Smoked,0
+43,Male,1,0,Married,Employed,Urban,178.5,27.07,Never Smoked,0
+36,Female,0,0,Single,Employed,Urban,272.06,49.4,Current Smoker,0
+55,Female,0,0,Married,Government,Rural,140.2,44.06,Former Smoker,0
+77,Female,1,1,Married,Student/Dependent,Rural,137.83,20.94,Never Smoked,1
+22,Male,1,0,Married,Unemployed,Urban,295.88,34.54,Never Smoked,1
+56,Female,0,0,Married,Employed,Urban,188.85,44.6,Unknown,0
+37,Male,0,0,Single,Student/Dependent,Urban,290.86,44.63,Never Smoked,0
+58,Male,0,0,Single,Employed,Urban,189.72,35.69,Never Smoked,0
+82,Male,1,0,Married,Employed,Urban,267.31,49.47,Never Smoked,1
+85,Male,0,0,Married,Employed,Urban,139.42,24.59,Never Smoked,1
+90,Male,1,0,Married,Employed,Urban,163.89,24.97,Current Smoker,0
+69,Female,0,0,Married,Employed,Urban,164.93,28.06,Unknown,0
+69,Male,0,1,Married,Employed,Urban,219.2,26.57,Current Smoker,0
+74,Female,0,1,Single,Employed,Urban,190.83,23.85,Never Smoked,1
+28,Female,0,0,Single,Employed,Urban,257.73,18.93,Never Smoked,0
+75,Female,1,0,Married,Employed,Urban,225.07,29.8,Never Smoked,1
+70,Female,0,1,Married,Government,Urban,188.94,49.39,Former Smoker,1
+56,Female,0,0,Married,Employed,Urban,75.06,,Never Smoked,0
+51,Male,0,0,Married,Employed,Urban,115.3,15.81,Former Smoker,0
+59,Female,0,0,Single,Employed,Urban,220.56,20.18,Never Smoked,0
+51,Female,0,1,Married,Employed,Urban,152.17,41.33,Former Smoker,0
+82,Male,1,0,Married,Unemployed,Rural,172.07,32.44,Unknown,1
+66,Male,1,1,Married,Government,Urban,131.7,34.21,Unknown,1
+74,Male,0,0,Married,Unemployed,Urban,292.66,24.2,Current Smoker,0
+52,Male,0,0,Married,Employed,Rural,161.67,18.53,Current Smoker,0
+30,Female,0,0,Single,Employed,Rural,270.88,20.99,Current Smoker,0
+24,Male,0,0,Married,Government,Urban,113.94,45.24,Never Smoked,0
+43,Female,0,1,Single,Government,Urban,94.03,25.77,Never Smoked,0
+70,Male,0,0,Married,Employed,Urban,123.6,39.25,Former Smoker,0
+24,Male,0,0,Single,Employed,Urban,281.38,35.86,Never Smoked,0
+25,Male,0,0,Married,Employed,Urban,77.17,43.05,Never Smoked,0
+36,Female,0,0,Married,Employed,Urban,211.15,25.09,Never Smoked,0
+45,Female,0,0,Married,Employed,Rural,131.77,45.17,Former Smoker,0
+32,Male,1,1,Married,Employed,Urban,217.36,28.41,Current Smoker,1
+44,Female,0,1,Single,Employed,Urban,235.5,18.78,Former Smoker,1
+32,Female,1,0,Married,Employed,Urban,123.05,46.25,Former Smoker,0
+86,Male,0,1,Single,Employed,Urban,235.7,37.95,Never Smoked,1
+21,Female,0,0,Married,Employed,Urban,78.79,19.9,Never Smoked,0
+45,Male,0,1,Single,Unemployed,Urban,142.6,31.55,Former Smoker,0
+76,Female,0,1,Single,Employed,Urban,260.56,48.41,Former Smoker,0
+35,Male,0,1,Married,Unemployed,Urban,286.42,21.32,Never Smoked,1
+68,Female,0,0,Single,Employed,Urban,283.73,46.1,Current Smoker,0
+85,Female,0,0,Single,Government,Rural,166.24,39.4,Current Smoker,0
+81,Female,0,0,Single,Employed,Urban,288.72,28.23,Current Smoker,1
+64,Female,1,0,Married,Employed,Rural,191.86,35.35,Unknown,1
+22,Male,0,0,Married,Employed,Rural,144.59,18.74,Never Smoked,0
+37,Female,0,1,Married,Employed,Rural,133.11,27.36,Former Smoker,0
+42,Male,1,0,Single,Unemployed,Urban,130.68,15.43,Current Smoker,0
+41,Female,0,1,Married,Unemployed,Urban,272.5,16.06,Never Smoked,0
+23,Female,0,0,Married,Employed,Urban,93.17,46.58,Unknown,0
+48,Male,0,0,Married,Employed,Urban,90.24,44.72,Never Smoked,0
+78,Male,1,1,Single,Government,Urban,243.34,49.16,Never Smoked,1
+53,Male,0,0,Married,Unemployed,Urban,170.57,41.74,Former Smoker,1
+58,Male,0,1,Married,Employed,Rural,160.03,16.99,Never Smoked,1
+31,Female,1,0,Married,Employed,Urban,177.61,23.47,Never Smoked,0
+67,Male,1,0,Married,Employed,Urban,262.56,24.33,Current Smoker,0
+56,Female,0,0,Married,Unemployed,Urban,291.68,24.31,Never Smoked,0
+54,Female,0,0,Married,Unemployed,Urban,128.11,32.46,Former Smoker,0
+42,Male,0,0,Married,Unemployed,Urban,139.27,35.58,Never Smoked,0
+86,Male,0,0,Married,Government,Urban,235.28,44.08,Current Smoker,0
+52,Female,0,1,Single,Employed,Rural,251.28,28.17,Never Smoked,1
+43,Female,0,0,Married,Employed,Rural,243.64,39.29,Former Smoker,0
+65,Female,1,0,Married,Employed,Urban,188.43,48.84,Unknown,1
+81,Female,1,0,Single,Employed,Urban,138.69,26.91,Never Smoked,1
+78,Male,0,0,Married,Employed,Rural,225.73,43.38,Former Smoker,0
+27,Female,1,0,Single,Employed,Urban,103.08,46.27,Never Smoked,0
+37,Male,0,0,Married,Employed,Urban,151.3,29.63,Never Smoked,0
+57,Female,1,0,Married,Employed,Urban,148.72,46.29,Never Smoked,0
+20,Male,0,1,Single,Employed,Urban,203.07,33.17,Former Smoker,1
+32,Female,0,0,Married,Government,Rural,167.63,27.08,Unknown,0
+34,Male,0,1,Married,Employed,Urban,99.25,37.25,Unknown,0
+36,Female,0,0,Married,Unemployed,Urban,191.39,46.07,Never Smoked,0
+52,Male,1,1,Married,Employed,Rural,204.17,23.73,Former Smoker,1
+45,Female,0,0,Single,Employed,Urban,181.07,19.4,Unknown,0
+61,Female,0,0,Married,Government,Urban,264.52,35.41,Never Smoked,1
+24,Female,0,0,Single,Employed,Urban,257.93,16.25,Never Smoked,0
+20,Male,0,0,Married,Unemployed,Urban,198.12,39.35,Current Smoker,0
+24,Female,1,0,Married,Employed,Urban,109.92,36.25,Current Smoker,1
+78,Male,0,1,Single,Student/Dependent,Urban,121.21,18.51,Current Smoker,0
+20,Male,1,0,Married,Unemployed,Rural,207.19,40.38,Never Smoked,0
+33,Male,0,0,Married,Unemployed,Urban,95.13,18.08,Current Smoker,0
+88,Female,0,0,Married,Unemployed,Rural,257.69,47.35,Current Smoker,1
+57,Male,1,0,Married,Unemployed,Rural,233.34,32.55,Never Smoked,0
+49,Female,1,1,Married,Employed,Urban,263.51,31.7,Never Smoked,1
+75,Male,0,0,Married,Employed,Urban,230.69,23.24,Never Smoked,0
+90,Male,0,1,Single,Unemployed,Urban,120.63,46.79,Former Smoker,0
+28,Female,1,0,Married,Student/Dependent,Rural,153.7,47.39,Never Smoked,1
+21,Male,1,1,Married,Employed,Urban,147.96,38.53,Unknown,0
+68,Female,1,0,Single,Student/Dependent,Urban,158.31,32.05,Former Smoker,0
+84,Male,0,0,Married,Employed,Urban,235.73,41.12,Current Smoker,0
+21,Male,1,0,Married,Employed,Urban,128.02,15.79,Current Smoker,0
+88,Male,0,0,Married,Employed,Urban,164.13,47.77,Never Smoked,0
+61,Male,0,0,Married,Government,Rural,116.81,15.01,Never Smoked,0
+87,Female,0,0,Married,Employed,Rural,170.98,23.44,Never Smoked,0
+85,Male,0,1,Married,Employed,Urban,270.92,27.71,Never Smoked,1
+70,Male,0,0,Married,Employed,Urban,299.08,25.01,Former Smoker,1
+32,Female,0,0,Married,Employed,Urban,132.32,29.64,Unknown,0
+71,Female,0,0,Married,Employed,Urban,72.13,43.81,Current Smoker,0
+59,Female,1,0,Married,Government,Urban,288.64,40.35,Former Smoker,1
+38,Female,0,1,Married,Employed,Urban,103.28,42.52,Former Smoker,0
+75,Female,1,0,Single,Employed,Urban,181.61,48.5,Unknown,0
+22,Male,0,0,Single,Employed,Urban,235.81,27.71,Former Smoker,0
+23,Male,1,0,Married,Employed,Urban,135.34,,Former Smoker,0
+54,Male,0,0,Single,Employed,Urban,238.41,25.2,Never Smoked,0
+41,Female,0,0,Married,Unemployed,Urban,216.44,39.06,Never Smoked,0
+25,Male,0,0,Married,Unemployed,Urban,97.13,16.75,Current Smoker,0
+77,Female,0,0,Married,Employed,Urban,241.75,46.18,Current Smoker,1
+88,Female,0,0,Married,Employed,Urban,281.94,33.08,Current Smoker,1
+24,Male,1,0,Married,Unemployed,Urban,181.55,49.27,Unknown,0
+26,Male,1,0,Married,Employed,Rural,211.5,32.96,Never Smoked,1
+60,Male,0,0,Married,Employed,Urban,205.53,44.86,Current Smoker,0
+71,Female,1,0,Married,Unemployed,Urban,104.33,25.37,Never Smoked,1
+48,Male,1,0,Married,Employed,Urban,184.91,33.2,Never Smoked,0
+23,Female,1,1,Married,Employed,Urban,145.77,27.91,Former Smoker,0
+49,Male,1,0,Married,Employed,Urban,289.4,30.96,Never Smoked,0
+73,Female,1,0,Married,Government,Urban,234.26,49.05,Never Smoked,1
+89,Male,0,0,Married,Employed,Urban,136.27,42.2,Current Smoker,1
+32,Male,0,0,Married,Employed,Urban,212.07,20.1,Former Smoker,0
+50,Male,0,0,Married,Employed,Rural,101.06,16.15,Current Smoker,0
+77,Female,0,0,Married,Employed,Urban,177.58,28.89,Current Smoker,0
+40,Female,0,0,Married,Employed,Urban,155.1,21.99,Never Smoked,0
+23,Female,1,0,Single,Employed,Urban,217.71,48.0,Never Smoked,0
+43,Female,0,0,Single,Unemployed,Rural,205.87,43.55,Never Smoked,0
+34,Female,1,0,Married,Employed,Rural,221.21,32.61,Former Smoker,1
+49,Female,0,0,Married,Unemployed,Urban,167.88,30.06,Unknown,0
+57,Female,1,1,Single,Student/Dependent,Urban,233.9,48.98,Current Smoker,0
+88,Female,0,0,Single,Employed,Urban,251.67,47.86,Never Smoked,1
+27,Female,0,0,Married,Employed,Rural,295.34,32.92,Never Smoked,0
+65,Female,0,0,Married,Employed,Urban,134.85,31.18,Current Smoker,0
+78,Male,1,0,Married,Employed,Urban,93.72,34.6,Never Smoked,1
+75,Female,1,0,Married,Employed,Urban,161.78,23.75,Current Smoker,1
+75,Male,1,1,Married,Government,Urban,82.02,35.94,Current Smoker,1
+77,Male,1,0,Single,Student/Dependent,Urban,173.08,32.74,Current Smoker,1
+22,Male,0,1,Married,Employed,Urban,70.09,23.5,Current Smoker,0
+55,Male,0,0,Single,Unemployed,Urban,232.16,34.78,Never Smoked,0
+52,Female,0,0,Married,Employed,Urban,125.43,40.39,Former Smoker,0
+27,Female,0,1,Single,Employed,Urban,225.06,33.11,Current Smoker,0
+75,Male,1,0,Married,Unemployed,Urban,112.67,47.38,Unknown,0
+70,Female,0,0,Married,Employed,Urban,204.29,34.54,Never Smoked,1
+86,Female,0,0,Married,Employed,Urban,221.56,30.8,Current Smoker,0
+44,Female,0,0,Married,Employed,Urban,86.64,25.63,Current Smoker,0
+89,Female,0,0,Married,Student/Dependent,Urban,294.5,26.08,Never Smoked,1
+28,Female,0,1,Married,Student/Dependent,Rural,232.13,48.82,Former Smoker,0
+51,Female,1,0,Single,Student/Dependent,Urban,148.02,20.59,Never Smoked,0
+51,Male,0,0,Married,Employed,Urban,132.31,21.56,Current Smoker,0
+43,Female,0,0,Married,Unemployed,Urban,161.56,49.61,Former Smoker,0
+84,Male,0,0,Married,Employed,Rural,77.01,39.7,Current Smoker,0
+69,Female,1,0,Married,Student/Dependent,Urban,102.35,22.87,Never Smoked,0
+24,Female,0,0,Married,Employed,Urban,283.29,30.24,Never Smoked,0
+73,Male,0,0,Single,Employed,Urban,270.39,31.28,Current Smoker,0
+81,Female,1,0,Single,Employed,Rural,263.62,33.27,Current Smoker,1
+65,Female,1,0,Single,Employed,Rural,167.16,18.31,Never Smoked,1
+81,Male,0,1,Married,Employed,Urban,73.6,41.58,Current Smoker,1
+74,Female,0,0,Single,Employed,Rural,84.73,25.96,Never Smoked,0
+65,Male,1,0,Single,Student/Dependent,Urban,204.09,33.34,Unknown,0
+88,Male,1,0,Married,Employed,Urban,106.46,,Never Smoked,0
+52,Female,0,0,Married,Employed,Urban,150.48,47.14,Former Smoker,0
+79,Female,0,0,Married,Government,Urban,126.5,40.25,Current Smoker,0
+31,Male,0,0,Married,Employed,Urban,197.46,30.8,Former Smoker,0
+70,Female,0,0,Married,Unemployed,Rural,188.81,19.36,Never Smoked,0
+22,Female,1,1,Married,Unemployed,Urban,192.39,43.21,Never Smoked,0
+81,Female,1,0,Single,Employed,Urban,96.01,21.67,Current Smoker,1
+24,Female,1,0,Married,Employed,Urban,298.99,31.82,Never Smoked,0
+25,Female,0,1,Married,Unemployed,Urban,146.59,44.64,Never Smoked,0
+81,Male,0,0,Single,Employed,Urban,160.33,16.87,Never Smoked,0
+25,Male,1,1,Single,Employed,Rural,131.27,19.63,Current Smoker,0
+75,Female,1,0,Single,Employed,Urban,110.52,22.96,Never Smoked,1
+26,Male,0,0,Married,Employed,Urban,122.36,33.94,Never Smoked,0
+53,Female,0,0,Married,Employed,Urban,136.51,16.92,Unknown,0
+39,Female,0,0,Single,Employed,Urban,279.48,27.62,Never Smoked,0
+20,Female,0,0,Married,Government,Urban,153.91,40.03,Unknown,0
+43,Male,0,0,Married,Unemployed,Urban,151.68,32.69,Former Smoker,0
+58,Female,0,0,Married,Employed,Urban,108.89,49.05,Never Smoked,0
+28,Male,0,0,Married,Employed,Urban,132.67,16.11,Former Smoker,0
+86,Male,0,0,Married,Employed,Urban,109.13,,Former Smoker,0
+66,Male,0,0,Married,Employed,Urban,238.43,34.37,Former Smoker,0
+33,Male,0,0,Married,Employed,Urban,146.99,23.63,Never Smoked,0
+29,Male,0,0,Single,Employed,Urban,233.26,43.49,Never Smoked,0
+54,Male,0,0,Married,Unemployed,Urban,162.82,36.68,Never Smoked,0
+73,Male,0,0,Married,Employed,Urban,111.69,,Never Smoked,0
+70,Female,1,1,Single,Student/Dependent,Rural,259.54,21.02,Former Smoker,1
+33,Female,0,0,Married,Government,Rural,204.82,38.84,Never Smoked,0
+31,Female,1,1,Married,Employed,Urban,267.6,46.78,Former Smoker,1
+46,Female,0,0,Married,Student/Dependent,Urban,224.45,46.17,Current Smoker,0
+34,Male,0,0,Married,Employed,Urban,197.36,46.55,Unknown,1
+31,Female,0,0,Married,Government,Urban,281.85,31.12,Never Smoked,0
+28,Male,0,0,Single,Employed,Urban,144.27,49.15,Never Smoked,0
+58,Female,1,1,Single,Employed,Urban,105.27,22.76,Unknown,1
+37,Female,0,0,Married,Employed,Urban,129.07,38.7,Never Smoked,0
+33,Male,1,0,Single,Government,Urban,171.37,37.79,Former Smoker,0
+25,Female,0,1,Single,Student/Dependent,Rural,246.74,46.34,Unknown,0
+58,Female,0,0,Single,Employed,Urban,202.57,35.24,Former Smoker,0
+73,Female,0,0,Married,Employed,Urban,270.15,48.02,Never Smoked,1
+71,Female,0,1,Married,Employed,Rural,139.86,15.32,Current Smoker,0
+62,Male,0,0,Single,Student/Dependent,Urban,267.43,35.64,Unknown,0
+31,Male,0,0,Single,Employed,Urban,285.5,20.12,Current Smoker,0
+76,Male,1,0,Single,Government,Rural,123.33,26.33,Current Smoker,0
+21,Female,0,0,Married,Employed,Urban,282.19,25.65,Unknown,0
+55,Female,0,0,Single,Government,Urban,203.29,17.94,Never Smoked,1
+47,Female,1,0,Married,Employed,Rural,267.49,,Unknown,1
+47,Female,0,1,Married,Student/Dependent,Urban,280.04,48.46,Unknown,0
+70,Female,0,0,Married,Employed,Urban,261.31,31.43,Unknown,0
+55,Female,1,1,Single,Employed,Urban,121.95,27.27,Never Smoked,1
+30,Female,1,0,Married,Employed,Urban,95.88,,Never Smoked,0
+81,Male,0,1,Married,Employed,Rural,133.0,,Current Smoker,0
+69,Male,0,0,Married,Employed,Urban,73.45,46.88,Never Smoked,1
+36,Female,1,1,Married,Employed,Urban,258.96,32.86,Never Smoked,1
+70,Male,0,1,Married,Employed,Urban,100.32,21.68,Never Smoked,0
+68,Male,1,0,Married,Employed,Urban,295.64,36.31,Never Smoked,0
+77,Female,1,0,Single,Employed,Rural,75.11,15.28,Never Smoked,1
+28,Female,0,0,Single,Employed,Urban,189.64,24.52,Never Smoked,0
+25,Female,0,0,Single,Employed,Urban,256.06,38.57,Current Smoker,0
+51,Male,0,0,Married,Employed,Urban,93.12,47.8,Never Smoked,0
+58,Female,1,1,Married,Unemployed,Urban,266.74,30.69,Never Smoked,1
+79,Female,0,0,Married,Unemployed,Rural,188.14,35.06,Former Smoker,1
+53,Female,0,0,Married,Employed,Urban,260.45,23.48,Never Smoked,0
+27,Male,1,1,Single,Employed,Urban,284.39,42.4,Never Smoked,0
+48,Female,0,0,Married,Employed,Urban,183.28,36.43,Never Smoked,1
+78,Female,0,1,Married,Unemployed,Rural,231.81,49.95,Former Smoker,0
+70,Male,0,1,Married,Employed,Urban,173.48,33.58,Unknown,0
+20,Female,1,0,Married,Employed,Urban,202.7,23.2,Former Smoker,0
+49,Male,1,0,Married,Employed,Urban,266.41,39.42,Never Smoked,0
+38,Female,0,0,Single,Employed,Urban,155.44,47.11,Unknown,0
+58,Male,0,0,Single,Unemployed,Urban,290.07,27.34,Never Smoked,1
+86,Male,0,0,Married,Employed,Urban,105.18,21.61,Current Smoker,0
+69,Male,1,0,Married,Student/Dependent,Urban,105.58,35.09,Never Smoked,1
+70,Female,1,0,Married,Employed,Urban,193.97,31.17,Current Smoker,1
+76,Female,0,0,Married,Employed,Urban,104.4,,Never Smoked,0
+51,Female,0,0,Married,Employed,Urban,145.61,39.74,Never Smoked,0
+69,Male,1,1,Married,Government,Urban,147.05,23.31,Current Smoker,1
+42,Male,0,0,Married,Student/Dependent,Rural,155.92,36.03,Never Smoked,0
+73,Male,0,1,Single,Employed,Urban,189.75,,Current Smoker,1
+62,Female,0,1,Married,Student/Dependent,Urban,87.14,16.18,Never Smoked,0
+35,Female,0,0,Married,Government,Urban,288.64,42.19,Unknown,0
+52,Male,1,1,Single,Employed,Urban,231.94,38.53,Never Smoked,0
+85,Male,0,0,Married,Employed,Urban,125.7,43.2,Unknown,0
+35,Female,0,1,Single,Employed,Urban,136.6,40.06,Unknown,0
+89,Female,0,0,Married,Employed,Urban,148.9,35.6,Unknown,0
+70,Female,0,0,Married,Employed,Urban,225.79,16.52,Current Smoker,0
+44,Female,0,0,Married,Employed,Rural,163.81,17.9,Never Smoked,0
+37,Male,0,0,Married,Employed,Urban,135.69,,Current Smoker,0
+71,Female,0,0,Married,Employed,Rural,167.39,28.49,Unknown,0
+85,Male,0,0,Married,Government,Urban,80.32,,Current Smoker,0
+43,Female,0,0,Married,Government,Urban,157.28,43.46,Never Smoked,0
+72,Male,0,1,Married,Employed,Urban,254.08,46.19,Never Smoked,1
+34,Male,0,0,Married,Employed,Urban,118.19,32.12,Never Smoked,0
+42,Male,0,0,Married,Unemployed,Urban,183.81,20.69,Former Smoker,0
+37,Male,1,0,Married,Student/Dependent,Urban,72.78,38.15,Current Smoker,1
+80,Female,0,0,Single,Student/Dependent,Urban,249.75,40.11,Never Smoked,0
+89,Female,0,0,Married,Government,Urban,268.3,36.22,Never Smoked,1
+36,Male,1,0,Married,Government,Urban,173.52,24.99,Unknown,0
+80,Female,1,0,Single,Employed,Urban,105.82,20.9,Never Smoked,1
+26,Female,0,0,Married,Student/Dependent,Urban,222.02,19.57,Current Smoker,0
+44,Male,1,0,Single,Unemployed,Urban,76.71,39.17,Never Smoked,0
+23,Male,0,0,Married,Unemployed,Urban,130.96,40.16,Current Smoker,0
+32,Female,0,1,Married,Employed,Rural,130.41,20.82,Current Smoker,0
+57,Female,1,0,Single,Employed,Rural,239.34,26.03,Never Smoked,1
+71,Female,0,0,Married,Employed,Urban,185.59,24.22,Former Smoker,0
+48,Male,1,1,Married,Employed,Urban,268.34,,Former Smoker,1
+90,Male,1,0,Married,Unemployed,Urban,162.55,46.9,Never Smoked,1
+32,Female,0,1,Married,Employed,Urban,221.68,36.36,Current Smoker,0
+81,Male,0,0,Single,Employed,Urban,276.04,,Current Smoker,1
+74,Male,0,0,Married,Employed,Urban,260.25,40.1,Current Smoker,0
+38,Male,1,0,Married,Student/Dependent,Rural,202.99,32.55,Unknown,1
+82,Male,0,0,Married,Student/Dependent,Urban,90.94,22.0,Former Smoker,1
+45,Female,0,0,Married,Employed,Urban,103.05,30.58,Former Smoker,0
+45,Male,0,1,Married,Employed,Urban,135.98,38.75,Former Smoker,0
+70,Male,0,0,Married,Employed,Urban,101.15,30.24,Unknown,0
+80,Male,0,0,Married,Employed,Urban,264.62,21.31,Never Smoked,1
+25,Male,0,0,Married,Unemployed,Urban,202.38,24.05,Never Smoked,0
+35,Male,0,0,Married,Employed,Urban,144.5,41.89,Former Smoker,0
+25,Male,0,0,Married,Government,Urban,82.4,43.66,Never Smoked,0
+56,Male,0,0,Married,Employed,Urban,195.0,21.01,Unknown,0
+24,Male,0,0,Married,Employed,Urban,289.93,19.4,Never Smoked,0
+56,Female,0,0,Married,Employed,Rural,268.42,38.59,Never Smoked,1
+88,Female,1,0,Married,Employed,Urban,87.08,16.47,Never Smoked,1
+25,Female,0,0,Married,Unemployed,Rural,247.57,49.52,Never Smoked,0
+59,Male,1,0,Married,Government,Rural,88.4,25.27,Never Smoked,0
+34,Female,1,0,Single,Student/Dependent,Urban,202.09,26.19,Never Smoked,1
+87,Male,1,1,Married,Employed,Urban,236.72,19.17,Never Smoked,1
+59,Female,1,1,Single,Employed,Urban,261.65,,Former Smoker,0
+67,Male,0,0,Married,Employed,Urban,163.7,36.92,Never Smoked,0
+43,Male,1,0,Married,Student/Dependent,Urban,146.65,15.65,Never Smoked,0
+88,Female,1,1,Single,Employed,Urban,223.68,18.49,Never Smoked,1
+64,Male,0,0,Married,Employed,Urban,229.9,21.01,Former Smoker,0
+69,Female,1,1,Single,Employed,Rural,290.62,26.26,Never Smoked,1
+20,Female,1,0,Single,Unemployed,Rural,224.41,40.52,Former Smoker,0
+58,Female,0,0,Married,Unemployed,Urban,163.13,46.02,Former Smoker,0
+56,Female,0,1,Single,Employed,Urban,140.28,18.1,Never Smoked,0
+85,Male,0,0,Married,Student/Dependent,Rural,175.12,43.14,Never Smoked,0
+24,Male,0,0,Single,Employed,Rural,127.47,34.62,Never Smoked,0
+49,Male,1,1,Married,Employed,Urban,144.22,22.18,Never Smoked,1
+75,Male,0,0,Married,Unemployed,Rural,142.05,17.33,Never Smoked,0
+20,Male,0,1,Single,Employed,Urban,192.76,44.23,Never Smoked,1
+84,Female,0,1,Single,Student/Dependent,Urban,294.5,,Current Smoker,1
+41,Female,0,0,Married,Employed,Urban,179.62,49.48,Unknown,0
+84,Female,0,0,Single,Employed,Urban,284.25,20.67,Never Smoked,1
+58,Male,1,1,Married,Unemployed,Rural,197.79,25.74,Unknown,1
+21,Male,0,0,Married,Government,Urban,128.28,31.73,Never Smoked,0
+46,Female,1,0,Married,Employed,Urban,195.84,43.72,Never Smoked,1
+36,Female,1,1,Married,Employed,Urban,106.23,21.45,Former Smoker,1
+29,Male,1,0,Single,Employed,Urban,287.98,40.76,Former Smoker,0
+61,Male,0,0,Single,Employed,Rural,142.84,16.56,Never Smoked,0
+20,Female,0,1,Married,Employed,Urban,123.73,25.43,Current Smoker,0
+57,Female,0,0,Married,Employed,Rural,161.36,45.59,Never Smoked,0
+72,Female,1,0,Married,Employed,Rural,92.76,40.63,Never Smoked,0
+21,Female,0,0,Married,Unemployed,Urban,89.3,38.42,Current Smoker,0
+87,Female,1,1,Married,Government,Urban,196.8,43.53,Never Smoked,0
+58,Male,0,0,Married,Unemployed,Rural,241.02,40.96,Current Smoker,0
+46,Female,1,1,Married,Employed,Urban,145.76,44.56,Never Smoked,0
+45,Male,1,0,Single,Employed,Urban,174.0,16.37,Never Smoked,0
+35,Male,0,0,Married,Employed,Rural,294.37,47.77,Never Smoked,0
+72,Male,0,0,Married,Employed,Urban,245.44,23.57,Former Smoker,0
+73,Male,0,0,Married,Student/Dependent,Urban,178.06,35.3,Never Smoked,1
+27,Female,0,0,Married,Employed,Rural,133.35,43.42,Former Smoker,0
+79,Female,0,0,Married,Unemployed,Urban,163.65,37.67,Current Smoker,0
+63,Female,0,1,Single,Unemployed,Urban,128.01,22.51,Never Smoked,1
+81,Male,0,1,Single,Government,Urban,196.92,27.3,Unknown,0
+40,Female,0,0,Married,Employed,Urban,79.13,19.54,Unknown,0
+29,Female,1,1,Single,Student/Dependent,Urban,116.27,25.83,Never Smoked,1
+64,Female,0,0,Married,Student/Dependent,Rural,188.19,15.64,Never Smoked,0
+52,Male,1,1,Single,Employed,Urban,203.57,28.53,Former Smoker,1
+38,Male,0,0,Married,Student/Dependent,Urban,85.87,39.54,Current Smoker,0
+39,Female,1,0,Married,Unemployed,Urban,118.28,41.7,Current Smoker,0
+43,Male,0,0,Married,Student/Dependent,Urban,244.97,15.69,Never Smoked,0
+57,Female,1,0,Married,Unemployed,Rural,184.04,46.28,Former Smoker,1
+55,Female,0,0,Married,Employed,Urban,242.89,23.86,Current Smoker,0
+88,Female,1,1,Married,Student/Dependent,Urban,71.0,40.15,Current Smoker,1
+66,Male,0,0,Single,Unemployed,Urban,254.71,20.06,Never Smoked,0
+60,Male,0,1,Married,Unemployed,Urban,274.5,32.21,Unknown,0
+58,Male,1,0,Married,Employed,Rural,292.97,21.54,Never Smoked,1
+79,Female,0,0,Single,Unemployed,Urban,154.4,38.8,Former Smoker,0
+88,Female,1,0,Married,Employed,Urban,224.91,42.33,Unknown,1
+81,Male,1,0,Single,Employed,Urban,116.71,24.04,Never Smoked,1
+43,Female,0,0,Married,Unemployed,Urban,257.88,36.83,Former Smoker,0
+70,Female,0,0,Single,Government,Urban,128.0,34.11,Never Smoked,0
+26,Female,0,1,Married,Employed,Urban,225.78,48.97,Never Smoked,0
+20,Female,1,1,Single,Government,Urban,233.76,23.13,Current Smoker,0
+72,Male,0,0,Married,Employed,Urban,269.12,30.51,Former Smoker,1
+80,Female,0,1,Married,Student/Dependent,Rural,205.64,42.38,Never Smoked,1
+47,Male,0,0,Single,Unemployed,Urban,205.58,24.44,Never Smoked,0
+45,Male,1,0,Married,Unemployed,Urban,160.38,49.91,Current Smoker,1
+66,Male,0,0,Married,Employed,Rural,109.22,18.96,Former Smoker,0
+39,Female,0,1,Married,Unemployed,Urban,93.87,31.49,Former Smoker,0
+31,Female,0,0,Married,Employed,Urban,132.69,28.45,Former Smoker,0
+44,Female,0,0,Married,Employed,Urban,156.99,32.07,Never Smoked,1
+20,Male,0,0,Married,Employed,Rural,114.0,30.7,Unknown,0
+58,Female,1,0,Married,Employed,Urban,255.4,17.79,Never Smoked,1
+69,Female,0,0,Married,Employed,Urban,128.59,21.2,Never Smoked,0
+80,Female,1,0,Married,Government,Rural,293.61,41.9,Current Smoker,1
+73,Male,1,0,Married,Employed,Rural,162.6,25.31,Current Smoker,0
+52,Female,0,0,Married,Employed,Urban,288.64,37.14,Unknown,0
+48,Female,1,0,Married,Unemployed,Urban,295.51,47.36,Never Smoked,1
+88,Male,0,0,Single,Unemployed,Urban,260.49,33.68,Never Smoked,0
+29,Male,0,1,Married,Student/Dependent,Urban,130.55,16.0,Never Smoked,0
+67,Male,1,0,Married,Government,Urban,231.63,15.2,Current Smoker,1
+79,Female,0,0,Married,Employed,Rural,229.51,42.12,Never Smoked,1
+82,Female,0,0,Single,Employed,Rural,179.65,44.15,Former Smoker,0
+84,Male,0,0,Married,Government,Urban,194.85,29.24,Never Smoked,1
+77,Female,0,0,Single,Employed,Urban,222.47,18.7,Current Smoker,0
+51,Female,1,0,Married,Employed,Rural,99.13,38.48,Current Smoker,0
+61,Male,0,0,Married,Government,Urban,79.63,36.43,Never Smoked,0
+61,Male,0,0,Married,Unemployed,Rural,247.62,16.57,Never Smoked,0
+35,Female,0,1,Married,Employed,Urban,167.75,17.95,Current Smoker,0
+22,Male,0,0,Single,Unemployed,Rural,195.16,32.21,Former Smoker,0
+72,Female,1,0,Married,Student/Dependent,Urban,219.57,22.09,Unknown,1
+54,Female,0,0,Single,Employed,Urban,206.55,36.88,Never Smoked,0
+44,Male,0,0,Married,Government,Urban,84.79,49.09,Never Smoked,0
+66,Female,1,0,Married,Employed,Urban,255.88,18.61,Former Smoker,1
+75,Male,0,1,Married,Employed,Urban,71.22,25.69,Never Smoked,0
+90,Male,0,0,Married,Employed,Rural,136.43,25.41,Never Smoked,0
+23,Female,1,1,Married,Government,Urban,96.78,38.76,Never Smoked,0
+57,Male,0,0,Single,Government,Urban,189.36,25.13,Never Smoked,0
+20,Female,0,0,Single,Student/Dependent,Urban,238.67,24.43,Never Smoked,0
+30,Male,0,0,Married,Employed,Urban,245.56,23.15,Current Smoker,0
+36,Female,0,0,Single,Unemployed,Rural,73.51,40.15,Never Smoked,0
+24,Female,0,0,Married,Employed,Urban,178.17,36.61,Current Smoker,0
+23,Male,1,0,Married,Employed,Urban,169.32,,Never Smoked,0
+49,Female,0,0,Married,Student/Dependent,Rural,205.9,29.97,Current Smoker,0
+79,Female,1,0,Married,Unemployed,Rural,178.84,25.38,Never Smoked,1
+72,Female,1,1,Married,Employed,Rural,287.35,27.11,Never Smoked,1
+29,Male,0,0,Single,Employed,Urban,71.33,44.32,Never Smoked,0
+86,Male,0,0,Married,Government,Rural,94.83,36.36,Unknown,0
+32,Female,0,0,Married,Unemployed,Rural,133.15,33.24,Never Smoked,0
+30,Female,0,0,Single,Employed,Rural,279.05,32.68,Never Smoked,0
+29,Female,0,0,Married,Employed,Urban,188.43,20.54,Never Smoked,0
+79,Male,0,0,Married,Unemployed,Rural,245.63,43.35,Unknown,0
+49,Female,1,0,Married,Government,Urban,176.4,27.45,Current Smoker,1
+57,Male,0,0,Married,Unemployed,Urban,107.81,32.61,Former Smoker,0
+63,Female,0,0,Married,Unemployed,Urban,70.06,23.63,Former Smoker,0
+21,Male,0,0,Married,Employed,Urban,166.14,18.59,Never Smoked,0
+40,Female,0,0,Single,Employed,Urban,285.69,36.05,Former Smoker,1
+47,Male,0,0,Married,Unemployed,Urban,119.17,,Former Smoker,0
+79,Female,1,0,Married,Employed,Urban,259.82,26.8,Current Smoker,1
+69,Female,1,1,Single,Employed,Urban,174.44,23.57,Never Smoked,1
+77,Male,1,0,Married,Student/Dependent,Urban,277.34,45.09,Current Smoker,1
+47,Female,0,0,Married,Unemployed,Urban,238.15,33.6,Former Smoker,0
+77,Male,1,0,Single,Government,Urban,118.69,20.03,Never Smoked,0
+81,Male,0,0,Single,Employed,Urban,169.58,19.43,Former Smoker,1
+45,Female,0,0,Single,Employed,Urban,291.21,32.27,Never Smoked,0
+66,Male,0,0,Married,Student/Dependent,Urban,98.6,,Former Smoker,0
+31,Male,1,0,Married,Employed,Urban,177.61,46.66,Never Smoked,0

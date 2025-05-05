@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="{{ url_for('static', filename='favicon-512x512.png') }}" type="image/png">
+
+  <title>About Stroke Prediction</title>
+  <style>
+    /* Global Reset and Font */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url("{{ url_for('static', filename='css/futuristic-computer-generated-blue-fractal-symbol-generative-ai.jpg') }}") no-repeat center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #333;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 2rem 3rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      max-width: 800px;
+      width: 90%;
+      text-align: left;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #007bff;
+    }
+    h2 {
+      font-size: 1.75rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #0056b3;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    a {
+      display: inline-block;
+      margin-top: 1.5rem;
+      text-decoration: none;
+      color: #007bff;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>About Stroke Prediction</h1>
+    <p>
+      Welcome to our Stroke Prediction system! This application collects a set of health and lifestyle inputs to estimate your risk for stroke. Our goal is to provide you with insights that can help in early detection and preventive care.
+    </p>
+    
+    <h2>Inputs We Collect</h2>
+    <p>
+      <strong>Age:</strong> Your age is a critical factor, as stroke risk increases with age.
+    </p>
+    <p>
+      <strong>BMI (Body Mass Index):</strong> Calculated from your height and weight, BMI helps determine if you're underweight, normal, overweight, or obese. Higher BMI values can indicate increased risk.
+    </p>
+    <p>
+      <strong>Hypertension:</strong> Whether you have been diagnosed with high blood pressure. High blood pressure is a major risk factor for stroke.
+    </p>
+    <p>
+      <strong>Heart Disease:</strong> If you have any history of heart-related conditions, this will impact your overall risk.
+    </p>
+    <p>
+      <strong>Average Glucose Level:</strong> Your blood sugar levels, which are important because high glucose levels can damage blood vessels.
+    </p>
+    <p>
+      In addition, we collect some lifestyle and demographic details (such as gender, marital status, work status, living environment, and smoking status) which are used to refine the prediction.
+    </p>
+    
+    <h2>What It Means</h2>
+    <p>
+      The system uses a machine learning model (logistic regression) that was trained on a dataset of patient health data. The model combines your inputs to predict the risk of having a stroke. Your prediction score is displayed as a gauge meter on your report page.
+    </p>
+    <p>
+      A higher score indicates a higher estimated risk. This information is intended to raise awareness and encourage you to consult healthcare professionals if you have concerns about your health.
+    </p>
+    
+    <a href="{{ url_for('user_login') }}">Back to Login</a>
+  </div>
+</body>
+</html>

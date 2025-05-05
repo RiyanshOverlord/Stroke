@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome </title>
+  <!-- You can optionally include Bootstrap for styling -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="{{ url_for('static', filename='favicon-512x512.png') }}" type="image/png">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f8f9fa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url("{{ url_for('static', filename='css/futuristic-computer-generated-blue-fractal-symbol-generative-ai.jpg') }}") no-repeat;
+      background-size: cover;
+    background-position: center;
+      min-height: 100vh;
+    }
+    .landing-container {
+      text-align: center;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      max-width: 500px;
+      width: 90%;
+    }
+    .landing-container h1 {
+      margin-bottom: 2rem;
+      color: #333;
+    }
+    .btn-custom {
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+    /* Optional: If you're using your own color scheme, adjust below */
+    .btn-user { background: #1E88E5; color: #fff; border: none; }
+    .btn-doctor { background: #43A047 ; color: #fff; border: none; }
+    .btn-admin { background: #D81B60 ; color: #fff; border: none; }
+    .btn-user.btn-custom:hover{
+      background-color  :#1565C0  ;
+      color: #fff;
+    }
+    .btn-doctor.btn-custom:hover{
+      background-color  :#2E7D32 ;
+      color: #fff;
+    }
+    .btn-admin.btn-custom:hover{
+      background-color  :#AD1457  ;
+      color: #fff;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="landing-container">
+    <h1>Welcome</h1>
+    <p>Select your portal:</p>
+    <div class="d-grid gap-3">
+      <a href="/user_login" class="btn btn-user btn-custom">User Login</a>
+      <a href="/doctor_login" class="btn btn-doctor btn-custom">Doctor Login</a>
+      <a href="/admin_login" class="btn btn-admin btn-custom">Admin Login</a>
+    </div>
+  </div>
+
+  <!-- Optionally include Bootstrap JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
