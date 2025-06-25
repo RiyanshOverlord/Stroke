@@ -1,124 +1,161 @@
 # 🧠 Stroke Prediction System using Machine Learning
 
-A full-stack web-based application designed to assess the likelihood of a stroke based on user-inputted health parameters. The system utilizes a machine learning model (Logistic Regression) trained on real-world medical data, integrated seamlessly with an interactive, user-friendly web interface.
+A full-stack intelligent stroke prediction web application built with a Flask backend and integrated machine learning model. The project predicts the probability of a person experiencing a stroke based on health parameters, using logistic regression trained on a real-world dataset. It is accessible through a chatbot-style interface, designed for ease of use and improved engagement.
+
+---
+
+## 🎯 Motivation
+
+Stroke remains a leading cause of death and disability worldwide. According to the World Health Organization (WHO), approximately 15 million people suffer strokes annually, of which 5 million die and another 5 million are left permanently disabled. In India alone, the incidence of stroke is estimated at 119 to 145 per 100,000 people every year.
+
+Despite these alarming statistics, awareness and early intervention remain low due to barriers like cost, limited accessibility to preventive care, and lack of personalized tools.
+
+This project was born out of a need to:
+
+* 📉 **Lower the barrier to early stroke risk detection**
+* 🌐 **Provide a web-accessible, privacy-conscious system**
+* 🤝 **Help individuals make informed health decisions early on**
+
+We aimed to provide an intuitive tool powered by machine learning and accessible via any browser, integrating medical data science with real-time interactivity.
 
 ---
 
 ## 🔍 Features
 
-- **User, Doctor, and Admin Roles** with secure authentication
-- **Chatbot-style interface** to guide users through health input collection
-- **BMI calculation** and dynamic **stroke risk prediction** via a **gauge meter**
-- Real-time **report generation** showing prediction results, doctors, and hospitals
-- **Doctor registration with document uploads**
-- **Admin dashboard** to manage user and doctor records
-- **Forgot and Reset password flow** with secure email tokens (via Flask-Mail)
-- Database integration using **MySQL and SQLAlchemy**
-- Trained model includes **preprocessing, SMOTE balancing, feature scaling, one-hot encoding**
-- Deployed using Flask (Python backend), HTML/CSS/JS frontend
+* 🔐 **User, Doctor, and Admin Roles** with role-specific interfaces and secure authentication
+* 💬 **Chatbot-style interface** to guide users through data collection
+* ⚖️ **BMI Calculation** integrated into risk prediction
+* 📊 **Dynamic Stroke Risk Gauge Meter** on the final report
+* 📄 **Doctor registration with photo, Aadhar, and degree uploads**
+* 🏥 **Interactive report** displaying nearby doctors and hospitals
+* 🔐 **Forgot and Reset Password** flow via email (tokenized)
+* 🧠 **Machine Learning Model** trained on real-world medical data
+* 💾 **MySQL + SQLAlchemy** backend database
 
 ---
 
 ## 📊 Dataset
 
-- Based on the publicly available dataset:
-  **Kaggle Stroke Prediction Dataset**
-  Source: [https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+**Kaggle - Stroke Prediction Dataset**
+Source: [https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
 
-> 📌 _Note: The prediction accuracy depends heavily on the quality of the dataset. This system is educational and not medically certified for clinical use._
+* 🧬 \~5,000 records
+* 🧑‍⚕️ Includes features like age, BMI, glucose, hypertension, smoking, gender, and work type
+* ✅ Preprocessed with SMOTE balancing, standardization, one-hot encoding
+
+> ⚠️ *Disclaimer: This tool is built for educational and demonstrative purposes. It is not approved for clinical use.*
 
 ---
 
 ## ⚙️ Technologies Used
 
-- **Backend:** Python, Flask, Flask-Mail, SQLAlchemy
-- **Machine Learning:** scikit-learn, pandas, numpy, SMOTE
-- **Frontend:** HTML5, CSS3, JavaScript, Chart.js
-- **Database:** MySQL / SQLite
-- **Design Tools:** PlantUML, UML diagrams
+| Category             | Stack                                       |
+| -------------------- | ------------------------------------------- |
+| **Backend**          | Flask, SQLAlchemy, Flask-Mail, Flask-CORS   |
+| **Machine Learning** | Scikit-learn, pandas, numpy, joblib         |
+| **Frontend**         | HTML5, CSS3, JavaScript (Vanilla), Chart.js |
+| **Database**         | MySQL (development), SQLite (fallback/test) |
+| **Other Tools**      | Dotenv, UUID, Werkzeug, PlantUML            |
 
 ---
 
 ## 🧰 Setup and Installation
 
 ### Prerequisites
-- Python 3.8+
-- MySQL (optional; SQLite supported by default)
 
-### Installation Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/stroke-prediction-system.git
-   cd stroke-prediction-system
-   ```
+* Python 3.8+
+* MySQL Server (or use SQLite for quick testing)
 
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+### 🛠 Installation
 
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+# 1. Clone the repository
+$ git clone https://github.com/yourusername/stroke-prediction-system.git
+$ cd stroke-prediction-system
 
-4. Set up environment variables in a `.env` file:
-   ```env
-   MAIL_USERNAME=your_email@gmail.com
-   MAIL_PASSWORD=your_email_password_or_app_password
-   SECRET_KEY=your_secret_key
-   DATABASE_URL=sqlite:///stroke.db  # or use a MySQL URI
-   ```
+# 2. Create a virtual environment
+$ python -m venv venv
+$ source venv/bin/activate  # Windows: venv\Scripts\activate
 
-5. Run the app:
-   ```bash
-   python main.py
-   ```
+# 3. Install dependencies
+$ pip install -r requirements.txt
 
-6. Access the app at:
-   ```
-   http://127.0.0.1:5000/
-   ```
+# 4. Add environment variables in a `.env` file
+```
 
----
+**.env**:
 
-## 🛠 Backend Overview
+```env
+SECRET_KEY=your_secret_key
+MAIL_USERNAME=your_email@gmail.com
+MAIL_PASSWORD=your_email_password
+DATABASE_URL=mysql+pymysql://user:password@localhost/dbname
+CSV_PATH=data/stroke_data.csv
+UPLOAD_FOLDER=uploads
+ALLOWED_EXTENSIONS=jpg,jpeg,png,pdf
+```
 
-- **Flask App Structure**: Modular, divided into Blueprints (auth, prediction, admin, doctor)
-- **Model Training**: Preprocessed dataset, applied SMOTE for class imbalance, one-hot encoded categorical variables, and trained using logistic regression with grid search for hyperparameter tuning
-- **Database Models**: Users, Doctors, Admins, Hospitals
-- **Security**: Passwords hashed using Werkzeug, token-based password reset via Flask-Mail
-- **Error Handling**: Robust server-side validation with graceful user feedback
+```bash
+# 5. Run the application
+$ python run.py
+```
+
+Access at: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
-## 🚧 Limitations
+## 🗂 Folder Structure
 
-- Not suitable for real-world clinical decisions
-- Limited accuracy due to non-clinical dataset
-- Does not yet support direct communication or scheduling with doctors
+```
+├── app
+│   ├── routes/           # Flask Blueprints: prediction, auth, doctor
+│   ├── templates/        # Jinja2 HTML templates
+│   ├── static/           # CSS, JS, images
+│   ├── models.py         # SQLAlchemy DB models
+│   ├── utils/            # File, email, and ML utilities
+├── models/               # Trained ML model, scaler, features
+├── uploads/              # Uploaded doctor files (degree, aadhar, photo)
+├── data/                 # CSV dataset (local copy)
+├── run.py                # Entry point to the app
+├── requirements.txt
+├── .env
+```
 
 ---
 
-## ✨ Future Improvements
+## 📋 Observations and Limitations
 
-- Explore advanced ML models: decision trees, ensemble models, neural networks
-- Add direct doctor-patient communication (e.g., messaging, appointment booking)
-- Expand data input fields: cholesterol, physical activity, etc.
-- Optimize for large-scale deployment: caching, indexing, server scaling
-- Improve UI/UX and introduce accessibility features
+While developing the system, we noted the following challenges:
+
+* ⚠️ The dataset, while publicly available, has class imbalance — handled using SMOTE, though more clinical-grade data would improve reliability.
+* 📶 Prediction performance is only as good as the data quality. Real clinical environments may have more complex variables.
+* 🔄 The absence of real-time doctor scheduling or patient record history limits continuity of care but was out of scope for our timeline.
+* ⚡ We’ve optimized user flow and performance, but large-scale load testing (concurrent users, deployment scaling) remains to be explored.
+
+---
+
+## 🧠 Model Training (Overview)
+
+* Null value handling (mean/mode)
+* One-hot encoding of categorical fields
+* Feature scaling using StandardScaler
+* Class imbalance resolved using **SMOTE**
+* Hyperparameter tuning using **GridSearchCV**
+* Logistic Regression with adjusted threshold (0.55)
+* Accuracy \~78–81% (F1-optimized)
 
 ---
 
 ## 📘 License
-This project is intended for educational use only.
+
+This project is intended for educational and academic purposes only.
 
 ---
 
-## 🔗 Reference
+## 🔗 References
 
-- Soriano, Federico. "Stroke Prediction Dataset". Kaggle, 2020. [https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
-- scikit-learn developers. (2023). scikit-learn: Machine Learning in Python. [https://scikit-learn.org](https://scikit-learn.org)
-- Flask Documentation. [https://flask.palletsprojects.com](https://flask.palletsprojects.com)
-- Flask-Mail. [https://pythonhosted.org/Flask-Mail/](https://pythonhosted.org/Flask-Mail/)
+* Soriano, Federico. "Stroke Prediction Dataset". Kaggle, 2020.
+  [https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+* scikit-learn documentation: [https://scikit-learn.org](https://scikit-learn.org)
+* Flask documentation: [https://flask.palletsprojects.com](https://flask.palletsprojects.com)
+* Flask-Mail: [https://pythonhosted.org/Flask-Mail/](https://pythonhosted.org/Flask-Mail/)
