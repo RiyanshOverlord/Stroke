@@ -1,0 +1,7 @@
+models/
+*.pkl
+vnv/
+main.py
+eda.py
+*.zip
+uploads/

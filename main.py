@@ -26,7 +26,7 @@ load_dotenv()
 # ------------------------
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:2286@localhost/stroke_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SECRET_KEY'] = '2286'
+app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 db = SQLAlchemy(app)
 
 # ------------------------
