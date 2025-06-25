@@ -2,6 +2,6 @@ models/
 *.pkl
 vnv/
 main.py
-eda.py
+EDA.py
 *.zip
 uploads/
