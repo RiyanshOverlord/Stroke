@@ -63,7 +63,7 @@
     <h1>Welcome</h1>
     <p>Select your portal:</p>
     <div class="d-grid gap-3">
-      <a href="/user_login" class="btn btn-user btn-custom">User Login</a>
+      <a href="{{ url_for('auth.user_login') }}" class="btn btn-user btn-custom">User Login</a>
       <a href="/doctor_login" class="btn btn-doctor btn-custom">Doctor Login</a>
       <a href="/admin_login" class="btn btn-admin btn-custom">Admin Login</a>
     </div>

@@ -108,15 +108,15 @@
                   <td>{{ doctor.location }}</td>
                   <td>
                     {% if doctor.photo %}
-                      <a href="{{ url_for('serve_file', folder='photo', filename=doctor.photo) }}" target="_blank">Photo</a>
+                      <a href="{{ url_for('prediction.serve_file', folder='photo', filename=doctor.photo) }}" target="_blank">Photo</a>
                     {% endif %}
                     {% if doctor.degree_doc %}
                       {% if doctor.photo %} | {% endif %}
-                      <a href="{{ url_for('serve_file', folder='degree', filename=doctor.degree_doc) }}" target="_blank">Degree</a>
+                      <a href="{{ url_for('prediction.serve_file', folder='degree', filename=doctor.degree_doc) }}" target="_blank">Degree</a>
                     {% endif %}
                     {% if doctor.aadhar_doc %}
                       {% if doctor.photo or doctor.degree_doc %} | {% endif %}
-                      <a href="{{ url_for('serve_file', folder='aadhar', filename=doctor.aadhar_doc) }}" target="_blank">Aadhar</a>
+                      <a href="{{ url_for('prediction.serve_file', folder='aadhar', filename=doctor.aadhar_doc) }}" target="_blank">Aadhar</a>
                     {% endif %}
                   </td>
                   <td>

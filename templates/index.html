@@ -21,9 +21,9 @@
   <header>
     <h2 class="logo">Logo</h2>
     <nav class="navigation">
-      <a href="{{ url_for('info') }}">Learn more about Stroke Prediction</a>
+      <a href="{{ url_for('auth.info') }}">Learn more about Stroke Prediction</a>
 
-      <a href="#">Home</a>
+      <a href="{{ url_for('auth.landing') }}">Home</a>
       {% block btn %}
       <button class="btnLogin-popup">Login</button>
       {% endblock %}
@@ -101,7 +101,10 @@
 
   {% block body %}{% endblock %}
   {% block js %}
-   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  <script>
+  const LOGIN_URL = "{{ url_for('auth.user_login') }}";
+</script>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
   {% endblock %}
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

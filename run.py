@@ -20,6 +20,7 @@ from app.config import DevelopmentConfig
 from app.routes.doctor_routes import doctor_bp
 from app.routes.prediction import prediction_bp
 from app.routes.auth_routes import auth_bp
+from app.routes.admin_routes import admin_bp
 
 def create_app():
     app = Flask(__name__)
@@ -35,6 +36,7 @@ def create_app():
     app.register_blueprint(doctor_bp)
     app.register_blueprint(prediction_bp)
     app.register_blueprint(auth_bp)
+    app.register_blueprint(admin_bp)
 
     return app
 

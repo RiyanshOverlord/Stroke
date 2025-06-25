@@ -93,7 +93,7 @@
           <label class="form-label">Doctor's Photograph</label>
           {% if doctor.photo %}
           <div class="mb-2">
-            <img src="{{ url_for('serve_file', folder='photo', filename=doctor.photo) }}" alt="Photo" class="img-thumbnail" width="150">
+            <img src="{{ url_for('prediction.serve_file', folder='photo', filename=doctor.photo) }}" alt="Photo" class="img-thumbnail" width="150">
           </div>
           {% endif %}
           <input type="file" class="form-control" name="photo">
@@ -102,7 +102,7 @@
           <label class="form-label">Degree Certificate</label>
           {% if doctor.degree_doc %}
           <div class="mb-2">
-            <a href="{{ url_for('serve_file', folder='degree', filename=doctor.degree_doc) }}" target="_blank">View Document</a>
+            <a href="{{ url_for('prediction.serve_file', folder='degree', filename=doctor.degree_doc) }}" target="_blank">View Document</a>
           </div>
           {% endif %}
           <input type="file" class="form-control" name="degree_doc">
@@ -111,7 +111,7 @@
           <label class="form-label">Aadhar Card Image</label>
           {% if doctor.aadhar_doc %}
           <div class="mb-2">
-            <a href="{{ url_for('serve_file', folder='aadhar', filename=doctor.aadhar_doc) }}" target="_blank">View Document</a>
+            <a href="{{ url_for('prediction.serve_file', folder='aadhar', filename=doctor.aadhar_doc) }}" target="_blank">View Document</a>
           </div>
           {% endif %}
           <input type="file" class="form-control" name="aadhar_doc">

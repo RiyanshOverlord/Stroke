@@ -13,13 +13,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setTimeout(() => {
       toast.classList.remove("show");
-    }, 2000); // 3 seconds timer
+    }, 2000);
   }
 
   function isValidUsername(username) {
-    return /^[a-zA-Z0-9_]+$/
-      .test(username); // Returns false if username looks like an email
+    return /^[a-zA-Z0-9_]+$/.test(username);
   }
+
+  // Unified error-safe JSON parser
+  async function safeParseJSON(response) {
+    try {
+      return await response.json();
+    } catch (err) {
+      console.error("Failed to parse JSON:", err);
+      return { success: false, message: "Unexpected server response." };
+    }
+  }
+
   // Handle Login
   document.getElementById("loginForm").addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -27,11 +37,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const password = document.getElementsByName("login-password")[0].value;
 
     try {
-      const response = await fetch("/user_login", {
+      const response = await fetch(LOGIN_URL, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           form_type: "login",
           email: email,
@@ -39,20 +47,18 @@ document.addEventListener("DOMContentLoaded", function () {
         }),
       });
 
-      const result = await response.json();
-      console.log(response.ok)
-      if (response.ok) {
-        // alert(result.message);
-        showToast(result.message, "success")
-
-        setTimeout(() => { window.location.href = "/chatbot" }, 3000);
+      const result = await safeParseJSON(response);
+      if (response.ok && result.success) {
+        showToast(result.message, "success");
+        setTimeout(() => {
+          window.location.href = "/chatbot";
+        }, 2000);
       } else {
-        // alert(result.message);
-        showToast(result.message, "error")
+        showToast(result.message || "Login failed", "error");
       }
     } catch (error) {
       console.error("Login Error:", error);
-      alert("An error occurred during login. Please try again.");
+      showToast("Server error during login.", "error");
     }
   });
 
@@ -63,59 +69,51 @@ document.addEventListener("DOMContentLoaded", function () {
     const email = document.getElementsByName("register-email")[0].value;
     const password = document.getElementsByName("register-password")[0].value;
 
-    if (isValidUsername(username)) {
-
-
-      try {
-        const response = await fetch("/user_login", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            form_type: "register",
-            username: username,
-            email: email,
-            password: password,
-          }),
-        });
-
-        const result = await response.json();
-        if (response.ok) {
-          // alert(result.message);
-          showToast(result.message, "success");
-          document.getElementById("registerForm").reset();
-          wrapper.classList.remove('active');
-
-
-        } else {
-          // alert(result.message);
-          showToast(result.message, "success");
-        }
-      } catch (error) {
-        console.error("Registration Error:", error);
-        alert("An error occurred during registration. Please try again.");
-      }
-    } else {
+    if (!isValidUsername(username)) {
       showToast("Invalid username format.", "error");
       return;
     }
+
+    try {
+      const response = await fetch(LOGIN_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          form_type: "register",
+          username: username,
+          email: email,
+          password: password,
+        }),
+      });
+
+      const result = await safeParseJSON(response);
+      if (response.ok && result.success) {
+        showToast(result.message, "success");
+        document.getElementById("registerForm").reset();
+        wrapper.classList.remove('active');
+      } else {
+        showToast(result.message || "Registration failed", "error");
+      }
+    } catch (error) {
+      console.error("Registration Error:", error);
+      showToast("Server error during registration.", "error");
+    }
   });
 
+  // Form switches
   registerLink.addEventListener('click', () => {
     wrapper.classList.add('active');
-  })
+  });
 
   loginLink.addEventListener('click', () => {
     wrapper.classList.remove('active');
-  })
+  });
 
   btnPopup.addEventListener('click', () => {
     wrapper.classList.add('active-popup');
-  })
+  });
 
   iconClose.addEventListener('click', () => {
     wrapper.classList.remove('active-popup');
-  })
-
-})
+  });
+});
