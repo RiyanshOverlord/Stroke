@@ -3,9 +3,9 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_mail import Mail
 from flask_cors import CORS
 from dotenv import load_dotenv
+from app import create_app, db
 
 
-db = SQLAlchemy()
 mail = Mail()
 s = None  
 

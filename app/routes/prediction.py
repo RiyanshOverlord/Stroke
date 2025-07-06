@@ -10,7 +10,8 @@ print("CSV_PATH:", os.getenv('CSV_PATH'))
 
 # 🔥 Train model once during startup
 csv_path = os.getenv('CSV_PATH')
-if not all(os.path.exists(f) for f in ['model.pkl', 'scaler.pkl', 'features.pkl']):
+if not all(os.path.exists(os.path.exists(os.path.join('models', f))) for f in ['model.pkl', 'scaler.pkl', 'features.pkl']):
+    print("Model Trained AGAIN")
     train_and_save_model(csv_path)
 best_model, scaler, selected_features = load_model_components()
 @prediction_bp.route('/chatbot')
