@@ -3,7 +3,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_mail import Message
 from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
 from app.models import User, Admin, Doctor
-from app import db, mail, s
+from app import db, mail
+from app.utils.email_utils import get_serializer,generate_token,verify_token,send_reset_email
 
 auth_bp = Blueprint('auth', __name__)
 
@@ -15,7 +16,6 @@ def landing():
 def info():
     return render_template('info.html')
 
-@auth_bp.route('/user_login', methods=['GET', 'POST'])
 @auth_bp.route('/user_login', methods=['GET', 'POST'])
 def user_login():
     if 'username' in session:
@@ -91,22 +91,21 @@ def forgot_password():
                   Doctor.query.filter_by(email=email).first() or \
                   Admin.query.filter_by(email=email).first()
         if account:
-            token = s.dumps(email, salt='password-reset-salt')
+            token = generate_token(email)
             reset_url = url_for('auth.reset_password', token=token, _external=True)
             name = getattr(account, 'username', None) or getattr(account, 'name', 'User')
+            
+            send_reset_email(email, name, reset_url)
 
-            msg = Message("Password Reset Request", recipients=[email])
-            msg.body = f"""Hi {name},\n\nReset your password:\n{reset_url}\n\nIf you did not request this, ignore this email."""
-            mail.send(msg)
             return render_template('forgot_password.html', message="A reset link has been sent.")
         return render_template('forgot_password.html', message="Email not found.")
     return render_template('forgot_password.html')
 
+
 @auth_bp.route('/reset_password/<token>', methods=['GET', 'POST'])
 def reset_password(token):
-    try:
-        email = s.loads(token, salt='password-reset-salt', max_age=3600)
-    except (BadSignature, SignatureExpired):
+    email = verify_token(token)
+    if not email:
         return "Invalid or expired token", 400
 
     account = User.query.filter_by(email=email).first() or \
@@ -123,4 +122,5 @@ def reset_password(token):
         account.hashed_password = generate_password_hash(new_password)
         db.session.commit()
         return redirect(url_for('auth.user_login'))
+    
     return render_template('reset_password.html', token=token)

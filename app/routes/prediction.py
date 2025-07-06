@@ -6,9 +6,8 @@ from app.utils.file_utils import get_folders
 import os
 
 prediction_bp = Blueprint('prediction', __name__)
-print("CSV_PATH:", os.getenv('CSV_PATH'))
 
-# 🔥 Train model once during startup
+#  Train model once during startup
 csv_path = os.getenv('CSV_PATH')
 if not all(os.path.exists(os.path.exists(os.path.join('models', f))) for f in ['model.pkl', 'scaler.pkl', 'features.pkl']):
     print("Model Trained AGAIN")

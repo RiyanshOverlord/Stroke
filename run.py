@@ -7,13 +7,6 @@ from app import create_app, db
 
 
 mail = Mail()
-s = None  
-
-# This function sets the global serialize
-def set_serializer_secret(app):
-    global s
-    from itsdangerous import URLSafeTimedSerializer
-    s = URLSafeTimedSerializer(app.config['SECRET_KEY'])
 
 # Blueprints and config
 from app.config import DevelopmentConfig
@@ -31,7 +24,6 @@ def create_app():
 
     db.init_app(app)
     mail.init_app(app)
-    set_serializer_secret(app)  
 
     app.register_blueprint(doctor_bp)
     app.register_blueprint(prediction_bp)

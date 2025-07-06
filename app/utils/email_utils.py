@@ -11,8 +11,8 @@ def generate_token(email):
     return s.dumps(email, salt='password-reset-salt')
 
 def verify_token(token, expiration=3600):
-    s = get_serializer()
     try:
+        s = get_serializer()
         return s.loads(token, salt='password-reset-salt', max_age=expiration)
     except Exception:
         return None
